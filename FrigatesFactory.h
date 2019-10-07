@@ -5,6 +5,6 @@
 class FrigratesFactory: public SpaceshipFactory{
     public:
         /// @returns Frigates concrete product
-        virtual Spaceship* createSpaceship(); 
+        virtual Spaceship* createSpaceship() override;
 };
 #endif
