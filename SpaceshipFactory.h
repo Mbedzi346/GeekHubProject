@@ -1,5 +1,6 @@
 #ifndef SPACESHIPFACTORY_H
 #define SPACESHIPFACTORY_H
+#include "SpaceshipCreator.h"
 #include "Spaceship.h"
 class SpaceshipFactory{
     public:

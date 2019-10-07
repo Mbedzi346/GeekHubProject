@@ -1,5 +1,5 @@
 #include "Spaceship.h"
-#include "FighterFactory.h"
+#include "SPFighterFactory.h"
 #include "FighterTransporter.h"
 
 Spaceship* FighterTransporter::createSpaceship(){
