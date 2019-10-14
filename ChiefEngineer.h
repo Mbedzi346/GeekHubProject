@@ -1,7 +1,7 @@
 #ifndef CHIEFENGINEER_H
 #define CHIEFENGINEER_H
 
-class ChiefEngineer : CrewMember {
+class ChiefEngineer : public CrewMember {
 };
 
 #endif
