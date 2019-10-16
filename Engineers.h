@@ -1,7 +1,7 @@
 #ifndef ENGINEERS_H
 #define ENGINEERS_H
 
-class Engineers : CrewMember {
+class Engineers : public CrewMember {
 };
 
 #endif

@@ -1,7 +1,7 @@
 #ifndef NAVIGATORFACTORY_H
 #define NAVIGATORFACTORY_H
 
-class NavigatorFactory : CrewFactory {
+class NavigatorFactory : public CrewFactory {
 
 
 public:

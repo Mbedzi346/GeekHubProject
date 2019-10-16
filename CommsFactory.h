@@ -1,7 +1,7 @@
 #ifndef COMMSFACTORY_H
 #define COMMSFACTORY_H
 
-class CommsFactory : CrewFactory {
+class CommsFactory : public CrewFactory {
 
 
 public:

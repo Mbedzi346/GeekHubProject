@@ -1,7 +1,7 @@
 #ifndef CHIEFENGINEERFACTORY_H
 #define CHIEFENGINEERFACTORY_H
 
-class ChiefEngineerFactory : CrewFactory {
+class ChiefEngineerFactory : public CrewFactory {
 
 
 public:

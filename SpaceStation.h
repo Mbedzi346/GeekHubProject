@@ -1,7 +1,3 @@
-//
-// Created by Orifha Mbedzi on 2019-10-07.
-//
-
 #ifndef GEEKHUBPROJECT_SPACESTATION_H
 #define GEEKHUBPROJECT_SPACESTATION_H
 #include "Spaceship.h"

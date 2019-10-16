@@ -1,11 +1,9 @@
 #ifndef PFIGHTERFACTORY_H
 #define PFIGHTERFACTORY_H
 
-class PFighterFactory : CrewFactory {
-
-
-public:
-	Fighter* createPerson();
+class PFighterFactory : public CrewFactory {
+	public:
+		Fighter* createPerson();
 };
 
 #endif

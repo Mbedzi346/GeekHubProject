@@ -1,7 +1,7 @@
 #ifndef CREWFACTORY_H
 #define CREWFACTORY_H
 
-class CrewFactory : PersonFactory {
+class CrewFactory : public PersonFactory {
 
 
 public:

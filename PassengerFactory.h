@@ -1,7 +1,7 @@
 #ifndef PASSENGERFACTORY_H
 #define PASSENGERFACTORY_H
 
-class PassengerFactory : PersonFactory {
+class PassengerFactory : public PersonFactory {
 
 
 public:

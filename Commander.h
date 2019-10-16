@@ -1,7 +1,7 @@
 #ifndef COMMANDER_H
 #define COMMANDER_H
 
-class Commander : CrewMember {
+class Commander : public CrewMember {
 };
 
 #endif
