@@ -3,6 +3,7 @@
 #include "Spaceship.h"
 
 class Battleship: public Spaceship{
-
+public:
+    virtual void Iterator* createIterator() override;
 };
 #endif

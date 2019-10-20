@@ -1,5 +1,11 @@
 #ifndef SPACESHIP_H
 #define SPACESHIP_H
+
+#include <vector>
+#include <string>
+
+using namespace std;
+
 class Spaceship{
 private:
     double displacement;
@@ -10,6 +16,8 @@ private:
     double stallSpeed;
     int crew;
     int passengers;
+    Iterator* iterator;
+    vector<string> logs;
 public:
     double getDisplacement();
     void setDisplacement(double);
@@ -25,6 +33,9 @@ public:
     void setCrew(double);
     double getPassengers();
     void setPassengers(double);
-        
+    virtual void Iterator* createIterator() = 0;
+    void addLogEntry(string log);
+    void removeLogEntry(string log);
+    bool isEmpty();
 };
 #endif

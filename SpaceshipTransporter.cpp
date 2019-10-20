@@ -1,4 +1,7 @@
-//
-// Created by Orifha Mbedzi on 2019/10/20.
-//
+#include "LogIterator.h"
+#include "FighterTransporter.h"
 
+
+void FighterTransporter::Iterator* createIterator(){
+    return new LogIterator();
+}

@@ -5,12 +5,21 @@
 #ifndef GEEKHUBPROJECT_LOGITERATOR_H
 #define GEEKHUBPROJECT_LOGITERATOR_H
 
+#include "Iterator.h"
+#include <vector>
+using namespace std;
 
+class LogIterator : public Iterator{
+    Iterator(vector<string> l){ logs = l};
+    virtual string first() override ;
+    virtual string next() override ;
+    bool hasNext() override;
+    virtual string current();
 
-class LogIterator {
-
+private:
+    vector<string> logs;
+    int currentPos;
 };
-
 
 
 #endif //GEEKHUBPROJECT_LOGITERATOR_H

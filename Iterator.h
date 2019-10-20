@@ -12,7 +12,7 @@ public:
     Iterator();
     virtual string first() = 0;
     virtual string next() = 0;
-    bool hasNext() = 0;
+    virtual bool hasNext() = 0;
     virtual string current() = 0;
 
 };

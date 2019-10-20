@@ -10,3 +10,4 @@ Spaceship* FrigatesFactory::createSpaceship(){
 Spaceship* Frigates::createSpaceship(){
     return new Frigates();
 }
+
