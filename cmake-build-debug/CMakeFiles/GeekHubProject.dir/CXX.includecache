@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/Captain.h
+
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/CaptainFactory.cpp
+CaptainFactory.h
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/CaptainFactory.h
+Captain.h
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/Captain.h
+
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/CaptainFactory.h
+CrewFactory.h
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewFactory.h
+
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewFactory.h
+
