@@ -1,6 +1,5 @@
 #include "CrewFactory.h"
 
+// implemented by concretes
 Person* CrewFactory::createPerson() {
-	// TODO - implement CrewFactory::createPerson
-	throw "Not yet implemented";
 }

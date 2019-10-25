@@ -1,11 +1,14 @@
 #ifndef NAVIGATORFACTORY_H
 #define NAVIGATORFACTORY_H
 
-class NavigatorFactory : public CrewFactory {
+#include "Navigator.h"
+#include "CrewFactory.h"
+
+class NavigatorFactory : public PersonFactory {
 
 
 public:
-	Navigator* createPerson();
+	 virtual Person* createPerson() override;
 };
 
 #endif

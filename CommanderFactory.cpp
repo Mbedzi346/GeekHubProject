@@ -1,6 +1,7 @@
 #include "CommanderFactory.h"
+#include "Commander.h"
 
-Commander* CommanderFactory::createPerson() {
-	// TODO - implement CommanderFactory::createPerson
-	throw "Not yet implemented";
+
+Person* CommanderFactory::createPerson() {
+	return new Commander();
 }

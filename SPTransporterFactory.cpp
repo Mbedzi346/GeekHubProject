@@ -1,15 +1,11 @@
-
-
 #include "SPTransporterFactory.h"
 #include "SpaceshipTransporter.h"
-
-Spaceship* SPTransporterFactory::createSpaceship(){
-
 #include "Spaceship.h"
-#include "SPTransporterFactory.h"
-#include "SpaceshipTransporter.h"
 
-Spaceship* SpaceshipTransporter::createSpaceship(){
-
-    return new SpaceshipTransporter();
+/**
+ * @brief concrete factory method to create a SpaceshipTransporter Object
+ * @return returns a SpaceshipTransporter Object which is a Spaceship
+ * */
+Spaceship* SPTransporterFactory::createSpaceship(){
+    return (Spaceship*) new SpaceshipTransporter();
 }

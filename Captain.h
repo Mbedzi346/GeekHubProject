@@ -1,10 +1,16 @@
 #ifndef CAPTAIN_H
 #define CAPTAIN_H
 
+#include "Person.h"
+#include <vector>
+
 #include "CrewMember.h"
 using namespace std;
+
 class Captain : public CrewMember {
 public:
+    Captain();
+
     virtual void attach(Person*) override ;
     virtual void detach(Person*) override ;
     virtual void notify() override;

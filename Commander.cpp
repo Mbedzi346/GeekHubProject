@@ -9,3 +9,6 @@ void Commander::proceedWithInvasion() {
     invadeCommand->invade();
 }
 
+void Commander::setCommand(Command *_command) {
+    invadeCommand = _command;
+}

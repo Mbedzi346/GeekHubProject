@@ -1,6 +1,6 @@
 #include "EngineersFactory.h"
+#include "Engineers.h"
 
-Engineers* EngineersFactory::createPerson() {
-	// TODO - implement EngineersFactory::createPerson
-	throw "Not yet implemented";
+Person* EngineersFactory::createPerson() {
+	return new Engineers();
 }

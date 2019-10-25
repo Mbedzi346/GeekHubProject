@@ -1,6 +1,7 @@
 #include "DoctorFactory.h"
+#include "Person.h"
+#include "Doctor.h"
 
-Doctor* DoctorFactory::createPerson() {
-	// TODO - implement DoctorFactory::createPerson
-	throw "Not yet implemented";
+Person* DoctorFactory::createPerson() {
+	return (Person*) new Doctor();
 }

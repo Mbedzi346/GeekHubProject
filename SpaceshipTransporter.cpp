@@ -1,7 +1,10 @@
 #include "LogIterator.h"
 #include "FighterTransporter.h"
 
-
-void FighterTransporter::Iterator* createIterator(){
+/**
+ * @brief Creates a LogIterator Object for FighterTransporter
+ * @return returns LogIterator object
+ * */
+LogIterator* FighterTransporter::Iterator* createIterator(){
     return new LogIterator();
 }

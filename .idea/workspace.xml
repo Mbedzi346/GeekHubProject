@@ -13,6 +13,42 @@
   <component name="ChangeListManager">
     <list default="true" id="f5760984-3da6-4c4b-b811-1da59cb6e5eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Captain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Captain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Captain.h" beforeDir="false" afterPath="$PROJECT_DIR$/Captain.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaptainFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CaptainFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaptainFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/CaptainFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChiefEngineerFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ChiefEngineerFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChiefEngineerFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/ChiefEngineerFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Commander.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Commander.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Commander.h" beforeDir="false" afterPath="$PROJECT_DIR$/Commander.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommanderFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CommanderFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommanderFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/CommanderFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommsFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CommsFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommsFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/CommsFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrewFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CrewFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrewFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/CrewFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doctor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Doctor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engineers.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engineers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineersFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineersFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineersFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/EngineersFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Navigator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Navigator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Navigator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Navigator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NavigatorFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/NavigatorFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NavigatorFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/NavigatorFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFighterFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PFighterFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFighterFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/PFighterFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.h" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassengerFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PassengerFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassengerFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/PassengerFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Person.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/PersonFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPTransporterFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SPTransporterFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceStationFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceStationFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceshipTransporter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceshipTransporter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,15 +64,12 @@
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="823" />
-  </component>
+  <component name="ProjectId" id="1SUSqKsP4JHoveEyBuhBiWALG9A" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -82,6 +115,9 @@
       <item itemvalue="CMake Application.GeekHubProject" />
     </list>
   </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -100,6 +136,9 @@
       <workItem from="1571600512794" duration="789000" />
       <workItem from="1571601420108" duration="2433000" />
       <workItem from="1571603908607" duration="806000" />
+      <workItem from="1571616880956" duration="894000" />
+      <workItem from="1572019798178" duration="622000" />
+      <workItem from="1572041207601" duration="2812000" />
     </task>
     <task id="LOCAL-00001" summary="SpaceStation">
       <created>1570454207649</created>

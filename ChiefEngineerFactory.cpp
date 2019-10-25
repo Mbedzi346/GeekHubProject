@@ -1,6 +1,6 @@
 #include "ChiefEngineerFactory.h"
+#include "ChiefEngineer.h"
 
-CHiefEngineer* ChiefEngineerFactory::createPerson() {
-	// TODO - implement ChiefEngineerFactory::createPerson
-	throw "Not yet implemented";
+Person* ChiefEngineerFactory::createPerson() {
+    return new ChiefEngineer();
 }

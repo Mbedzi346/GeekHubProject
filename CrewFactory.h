@@ -1,11 +1,12 @@
 #ifndef CREWFACTORY_H
 #define CREWFACTORY_H
 
+#include "Person.h"
+#include "PersonFactory.h"
+
 class CrewFactory : public PersonFactory {
-
-
 public:
-	Person* createPerson();
+	virtual Person* createPerson();
 };
 
 #endif

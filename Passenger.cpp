@@ -18,3 +18,10 @@ void Passenger::update() {
     if (announcement != captain->getPaxAnnouncement)
         this->announcement = captain->getPaxAnnouncement();
 }
+
+/**
+ * @brief initialize the captain member variable if not initialized via constructor
+ * */
+void Passenger::setCrewMember(CrewMember* _captain){
+    captain = _captain;
+}
