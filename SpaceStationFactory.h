@@ -4,7 +4,8 @@
 #include "SpaceshipFactory.h"
 
 class SpaceStationFactory : public SpaceshipFactory{
-    virtual Spaceship* createSpaceship() override;
+    public:
+        virtual Spaceship* createSpaceship() override;
 };
 
 

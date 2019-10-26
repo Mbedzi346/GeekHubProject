@@ -1,5 +1,6 @@
 #include "PassengerFactory.h"
 #include "Passenger.h"
+#include "Person.h"
 
 /**
  * @brief concrete factory method to create a Passenger Object

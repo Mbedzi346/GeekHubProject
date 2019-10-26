@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <string>
+#include "Iterator.h"
 
 using namespace std;
 
@@ -33,7 +34,7 @@ public:
     void setCrew(double);
     double getPassengers();
     void setPassengers(double);
-    virtual void Iterator* createIterator() = 0;
+    virtual Iterator* createIterator() = 0;
     void addLogEntry(string log);
     void removeLogEntry(string log);
     bool isEmpty();

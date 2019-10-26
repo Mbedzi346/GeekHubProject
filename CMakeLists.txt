@@ -12,7 +12,7 @@ add_executable(GeekHubProject
         Captain.h
         CaptainFactory.cpp
         CaptainFactory.h
-        "Chief Engineer.h"
+        ChiefEngineer.h
         ChiefEngineerFactory.cpp
         ChiefEngineerFactory.h
         Command.h

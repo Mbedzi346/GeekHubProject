@@ -3,6 +3,6 @@
 #include "Spaceship.h"
 class FighterTransporter: public Spaceship{
 public:
-    virtual void Iterator* createIterator() override;
+    virtual Iterator* createIterator() override;
 };
 #endif

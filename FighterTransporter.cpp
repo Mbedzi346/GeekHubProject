@@ -1,8 +1,7 @@
-#include "Spaceship.h"
-#include "SPFighterFactory.h"
 #include "FighterTransporter.h"
+#include "Iterator.h"
 #include "LogIterator.h"
 
-void FighterTransporter::Iterator* createIterator(){
+Iterator* FighterTransporter::createIterator(){
     return new LogIterator();
 }

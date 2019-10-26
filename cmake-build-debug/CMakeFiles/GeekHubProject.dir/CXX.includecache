@@ -7,16 +7,42 @@
 #IncludeRegexTransform: 
 
 /home/lindo/Desktop/school/cos214/project/GeekHubProject/Captain.h
+Person.h
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/Person.h
+vector
+-
+CrewMember.h
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewMember.h
 
 /home/lindo/Desktop/school/cos214/project/GeekHubProject/CaptainFactory.cpp
 CaptainFactory.h
 /home/lindo/Desktop/school/cos214/project/GeekHubProject/CaptainFactory.h
 Captain.h
 /home/lindo/Desktop/school/cos214/project/GeekHubProject/Captain.h
+Person.h
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/Person.h
 
 /home/lindo/Desktop/school/cos214/project/GeekHubProject/CaptainFactory.h
+Captain.h
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/Captain.h
 CrewFactory.h
 /home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewFactory.h
 
 /home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewFactory.h
+Person.h
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/Person.h
+PersonFactory.h
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/PersonFactory.h
+
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewMember.h
+Person.h
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/Person.h
+
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/Person.h
+string
+-
+
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/PersonFactory.h
+Person.h
+/home/lindo/Desktop/school/cos214/project/GeekHubProject/Person.h
 

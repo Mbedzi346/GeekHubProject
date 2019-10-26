@@ -5,7 +5,7 @@
 
 class Navigator : public CrewMember {
 public:
-    Navigator();
+    Navigator(){};
 
 };
 

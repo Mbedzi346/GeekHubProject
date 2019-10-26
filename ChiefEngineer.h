@@ -1,8 +1,11 @@
 #ifndef CHIEFENGINEER_H
 #define CHIEFENGINEER_H
 
-class ChiefEngineer : public CrewMember {
+#include "CrewMember.h"
 
+class ChiefEngineer : public CrewMember {
+    public:
+        ChiefEngineer(){};
 };
 
 #endif

@@ -6,7 +6,7 @@
 
 class CrewFactory : public PersonFactory {
 public:
-	virtual Person* createPerson();
+	virtual Person* createPerson() override;
 };
 
 #endif

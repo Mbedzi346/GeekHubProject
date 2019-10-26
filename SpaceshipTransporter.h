@@ -2,10 +2,11 @@
 #define SPACESHIPTRANSPORTER_H
 
 #include "Spaceship.h"
+#include "Iterator.h"
 
 class SpaceshipTransporter: public Spaceship{
-public:
-    virtual void Iterator* createIterator() override;
+    public:
+        virtual Iterator* createIterator() override;
 };
 
 #endif

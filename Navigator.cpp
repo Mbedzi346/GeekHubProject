@@ -4,6 +4,6 @@
 #include "Navigator.h"
 using namespace std;
 
-Navigator::Navigator() {
-
-}
+//Navigator::Navigator(){
+//
+//}

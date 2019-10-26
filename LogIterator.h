@@ -10,15 +10,18 @@
 using namespace std;
 
 class LogIterator : public Iterator{
-    Iterator(vector<string> l){ logs = l};
-    virtual string first() override ;
-    virtual string next() override ;
-    bool hasNext() override;
-    virtual string current();
+    public:
+        LogIterator(vector<string> l){ logs = l;};
+        LogIterator(){};
+        void setLog(vector<string> l){logs=l;};
+        virtual string first() override ;
+        virtual string next() override ;
+        bool hasNext() override;
+        virtual string current();
 
-private:
-    vector<string> logs;
-    int currentPos;
+    private:
+        vector<string> logs;
+        int currentPos;
 };
 
 

@@ -1,8 +1,11 @@
-
 #include "Exploration.h"
 #include "LogIterator.h"
+#include "Iterator.h"
 
-
-void FighterTransporter::Iterator* createIterator(){
+/**
+ * @brief Creates a LogIterator Object for Exploration
+ * @return returns LogIterator object
+ * */
+Iterator* FighterTransporter::createIterator(){
     return new LogIterator();
 }

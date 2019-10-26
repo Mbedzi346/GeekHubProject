@@ -1,16 +1,4 @@
 /home/lindo/clion-2019.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lindo/Desktop/school/cos214/project/GeekHubProject
 -- Configuring done
-CMake Error at CMakeLists.txt:8 (add_executable):
-  Cannot find source file:
-
-    Chief Engineer.h
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
-  .hpp .hxx .in .txx
-
-
-CMake Error at CMakeLists.txt:8 (add_executable):
-  No SOURCES given to target: GeekHubProject
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done
+-- Build files have been written to: /home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug

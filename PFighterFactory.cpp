@@ -1,5 +1,6 @@
 #include "PFighterFactory.h"
 #include "Fighter.h"
+#include "Person.h"
 
 /**
  * @brief concrete factory method to create a Fighter Object

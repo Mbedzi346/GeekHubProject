@@ -55,7 +55,3 @@ string Captain::getCrewAnnouncement(){
 string Captain::getGeneralAnnouncement(){
     return generalAnnouncement;
 }
-
-Captain::Captain() {
-
-}
