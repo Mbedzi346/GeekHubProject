@@ -6,11 +6,15 @@
 using namespace std;
 
 class SpaceStation : public Spaceship{
-    private:
-        int threatLevel;
-        vector<Spaceship*> ships;
-    public:
-        virtual Iterator* createIterator(){};
+private:
+    int threatLevel;
+    vector<Spaceship*> ships;
+    static SpaceStation* _instance;
+protected:
+    SpaceStation();
+public:
+    static SpaceStation* instance();
+    virtual Iterator* createIterator(){};
 };
 
 

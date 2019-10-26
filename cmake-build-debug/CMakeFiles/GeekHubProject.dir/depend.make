@@ -107,6 +107,12 @@ CMakeFiles/GeekHubProject.dir/FighterTransporter.cpp.o: ../Iterator.h
 CMakeFiles/GeekHubProject.dir/FighterTransporter.cpp.o: ../LogIterator.h
 CMakeFiles/GeekHubProject.dir/FighterTransporter.cpp.o: ../Spaceship.h
 
+CMakeFiles/GeekHubProject.dir/Frigates.cpp.o: ../Frigates.cpp
+CMakeFiles/GeekHubProject.dir/Frigates.cpp.o: ../Frigates.h
+CMakeFiles/GeekHubProject.dir/Frigates.cpp.o: ../Iterator.h
+CMakeFiles/GeekHubProject.dir/Frigates.cpp.o: ../LogIterator.h
+CMakeFiles/GeekHubProject.dir/Frigates.cpp.o: ../Spaceship.h
+
 CMakeFiles/GeekHubProject.dir/FrigatesFactory.cpp.o: ../Frigates.h
 CMakeFiles/GeekHubProject.dir/FrigatesFactory.cpp.o: ../FrigatesFactory.cpp
 CMakeFiles/GeekHubProject.dir/FrigatesFactory.cpp.o: ../FrigatesFactory.h
@@ -199,6 +205,7 @@ CMakeFiles/GeekHubProject.dir/SpaceshipTransporter.cpp.o: ../Spaceship.h
 CMakeFiles/GeekHubProject.dir/SpaceshipTransporter.cpp.o: ../SpaceshipTransporter.cpp
 CMakeFiles/GeekHubProject.dir/SpaceshipTransporter.cpp.o: ../SpaceshipTransporter.h
 
+CMakeFiles/GeekHubProject.dir/main.cpp.o: ../Frigates.h
 CMakeFiles/GeekHubProject.dir/main.cpp.o: ../Iterator.h
 CMakeFiles/GeekHubProject.dir/main.cpp.o: ../SpaceStation.h
 CMakeFiles/GeekHubProject.dir/main.cpp.o: ../SpaceStationFactory.h

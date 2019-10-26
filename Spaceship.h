@@ -37,6 +37,7 @@ public:
     virtual Iterator* createIterator() = 0;
     void addLogEntry(string log);
     void removeLogEntry(string log);
+    vector<string> getLogs();
     bool isEmpty();
     virtual ~Spaceship() {};
 };

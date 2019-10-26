@@ -8,5 +8,5 @@
  * @return returns a SpaceStation Object which is a Spaceship
  * */
 Spaceship* SpaceStationFactory::createSpaceship(){
-    return (Spaceship*) new SpaceStation();
+    return (Spaceship*) SpaceStation::instance();
 }

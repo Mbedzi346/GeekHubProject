@@ -7,5 +7,5 @@
  * @return returns LogIterator object
  * */
 Iterator* SpaceshipTransporter::createIterator(){
-    return new LogIterator();
+    return new LogIterator(getLogs());
 }

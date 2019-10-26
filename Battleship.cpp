@@ -8,5 +8,5 @@
 
 
 Iterator *Battleship::createIterator() {
-    return new LogIterator();
+    return new LogIterator(getLogs());
 }

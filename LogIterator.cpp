@@ -8,13 +8,12 @@ string LogIterator::first() {
     return logs.front();
 }
  string LogIterator::next() {
-    if(hasNext())
+    if(!hasNext())
         return nullptr;
-    currentPos++;
-     return logs.at(currentPos);
+     return logs.at(currentPos++);
  }
 bool LogIterator::hasNext() {
-    if((int)currentPos >= (int)logs.size()-1)
+    if((int)currentPos >= (int)logs.size())
         return false;
     return true;
 }

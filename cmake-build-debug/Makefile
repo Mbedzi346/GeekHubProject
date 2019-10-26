@@ -528,6 +528,33 @@ FighterTransporter.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/FighterTransporter.cpp.s
 .PHONY : FighterTransporter.cpp.s
 
+Frigates.o: Frigates.cpp.o
+
+.PHONY : Frigates.o
+
+# target to build an object file
+Frigates.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Frigates.cpp.o
+.PHONY : Frigates.cpp.o
+
+Frigates.i: Frigates.cpp.i
+
+.PHONY : Frigates.i
+
+# target to preprocess a source file
+Frigates.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Frigates.cpp.i
+.PHONY : Frigates.cpp.i
+
+Frigates.s: Frigates.cpp.s
+
+.PHONY : Frigates.s
+
+# target to generate assembly for a file
+Frigates.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Frigates.cpp.s
+.PHONY : Frigates.cpp.s
+
 FrigatesFactory.o: FrigatesFactory.cpp.o
 
 .PHONY : FrigatesFactory.o
@@ -1041,6 +1068,9 @@ help:
 	@echo "... FighterTransporter.o"
 	@echo "... FighterTransporter.i"
 	@echo "... FighterTransporter.s"
+	@echo "... Frigates.o"
+	@echo "... Frigates.i"
+	@echo "... Frigates.s"
 	@echo "... FrigatesFactory.o"
 	@echo "... FrigatesFactory.i"
 	@echo "... FrigatesFactory.s"

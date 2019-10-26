@@ -12,7 +12,6 @@ using namespace std;
 class LogIterator : public Iterator{
     public:
         LogIterator(vector<string> l){ logs = l;};
-        LogIterator(){};
         void setLog(vector<string> l){logs=l;};
         virtual string first() override ;
         virtual string next() override ;

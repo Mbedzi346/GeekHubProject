@@ -3,5 +3,5 @@
 #include "LogIterator.h"
 
 Iterator* FighterTransporter::createIterator(){
-    return new LogIterator();
+    return new LogIterator(getLogs());
 }

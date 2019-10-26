@@ -190,6 +190,9 @@
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/FighterTransporter.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Frigates.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Frigates.h">
 			<Option target="GeekHubProject"/>
 		</Unit>

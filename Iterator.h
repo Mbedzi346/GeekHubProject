@@ -14,6 +14,5 @@ class Iterator {
         virtual string next() = 0;
         virtual bool hasNext() = 0;
         virtual string current() = 0;
-
 };
 #endif

@@ -31,6 +31,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GeekHubProject.dir/SpaceStation.cpp.o"
   "CMakeFiles/GeekHubProject.dir/SpaceStationFactory.cpp.o"
   "CMakeFiles/GeekHubProject.dir/SPTransporterFactory.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/Frigates.cpp.o"
   "GeekHubProject.pdb"
   "GeekHubProject"
 )

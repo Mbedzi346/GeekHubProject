@@ -19,6 +19,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/Exploration.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/Exploration.cpp.o"
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/ExplorationFactory.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/ExplorationFactory.cpp.o"
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/FighterTransporter.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/FighterTransporter.cpp.o"
+  "/Users/orifhambedzi/CLionProjects/GeekHubProject/Frigates.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/Frigates.cpp.o"
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/FrigatesFactory.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/FrigatesFactory.cpp.o"
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/InvadeCommand.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/InvadeCommand.cpp.o"
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/Iterator.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/Iterator.cpp.o"

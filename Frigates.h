@@ -4,7 +4,12 @@
 #include "Iterator.h"
 
 class Frigates: public Spaceship{
-    virtual Iterator* createIterator() override{};
+public:
+    virtual Iterator* createIterator() override;
+
 
 };
+
+
+
 #endif

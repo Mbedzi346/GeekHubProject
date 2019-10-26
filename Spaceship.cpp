@@ -57,3 +57,7 @@ void Spaceship::removeLogEntry(string log){
 bool Spaceship::isEmpty(){
     return logs.empty();
 }
+
+vector<string> Spaceship::getLogs() {
+    return logs;
+}
