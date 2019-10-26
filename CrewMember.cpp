@@ -1,5 +1,7 @@
 #include "CrewMember.h"
 #include "Person.h"
+#include "Captain.h"
+
 using  namespace std;
 
 /**
@@ -15,10 +17,10 @@ using  namespace std;
  * @brief Update announcement from the captain object state
  * */
 void CrewMember::update() {
-    if (announcement != captain->getCrewAnnouncement)
-        this->announcement = captain->getCrewAnnouncement();
+    if (announcement != dynamic_cast<Captain*>(captain)->getCrewAnnouncement())
+        this->announcement = dynamic_cast<Captain*>(captain)->getCrewAnnouncement();
 }
 
 void CrewMember::setCaptain(Person* _captain){
-    captain = _captain;
+    captain = dynamic_cast<Captain*>(_captain);
 }

@@ -17,7 +17,7 @@ class LogIterator : public Iterator{
         virtual string first() override ;
         virtual string next() override ;
         bool hasNext() override;
-        virtual string current();
+        virtual string current() override ;
 
     private:
         vector<string> logs;

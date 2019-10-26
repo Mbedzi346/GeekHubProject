@@ -2,9 +2,11 @@
 // Created by Orifha Mbedzi on 2019/10/20.
 //
 #include "Battleship.h"
+#include "Iterator.h"
+#include "FighterTransporter.h"
 #include "LogIterator.h"
 
 
-void FighterTransporter::Iterator* createIterator(){
+Iterator *Battleship::createIterator() {
     return new LogIterator();
 }

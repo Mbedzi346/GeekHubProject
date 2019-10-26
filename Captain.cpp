@@ -1,5 +1,5 @@
 #include "Captain.h"
-#include <algorithm.h>
+#include <algorithm>
 
 /**
  * @brief attach observer to the observers list
@@ -7,9 +7,9 @@
  * */
 void Captain::attach(Person* person){
     if(person->getType() == "crew")
-        crew->push_back(person);
+        crew.push_back(person);
     else
-        passengers->push_back(person);
+        passengers.push_back(person);
 }
 
 /**
@@ -17,13 +17,12 @@ void Captain::attach(Person* person){
  * @param Person object to remove from the list
  * */
 void Captain::detach(Person* person){
-    auto element;
     if(person->getType() == "crew") {
-        element = find(crew.begin(), crew.end(), person);
+        auto element = find(crew.begin(), crew.end(), person);
         crew.erase(element);
     }
     else {
-        element = find(passengers.begin(), passengers.end(), person);
+        auto element = find(passengers.begin(), passengers.end(), person);
         passengers.erase(element);
     }
 
@@ -32,8 +31,8 @@ void Captain::detach(Person* person){
  * @brief Notify all the observers
  * */
 void Captain::notify(){
-    for(auto i : members)
-        members->update();
+    /*for(auto i : members)
+        members->update();*/
 }
 void Captain::setPaxAnnouncement(std::string s){
     paxAnnouncement = s;

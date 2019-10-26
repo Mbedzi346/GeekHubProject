@@ -10,7 +10,6 @@
 //    name = n;
 //
 //}
-Person::Person(){}
 
 std::string Person::getName(){
     return name;

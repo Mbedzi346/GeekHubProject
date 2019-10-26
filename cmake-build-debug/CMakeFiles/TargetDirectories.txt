@@ -1,3 +1,3 @@
-/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir
-/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir

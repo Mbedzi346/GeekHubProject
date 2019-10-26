@@ -18,6 +18,6 @@ bool LogIterator::hasNext() {
         return false;
     return true;
 }
-virtual string LogIterator::current(){
+string LogIterator::current(){
     return logs.at(currentPos);
 }

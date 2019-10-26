@@ -38,5 +38,6 @@ public:
     void addLogEntry(string log);
     void removeLogEntry(string log);
     bool isEmpty();
+    virtual ~Spaceship() {};
 };
 #endif

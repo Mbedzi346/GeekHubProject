@@ -5,7 +5,7 @@
 
 class Doctor : public CrewMember {
     public:
-        Doctor();
+        Doctor(){};
 };
 
 #endif

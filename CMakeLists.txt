@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.14.3)
+cmake_minimum_required(VERSION 3.14)
 project(GeekHubProject)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -6,9 +6,11 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(GeekHubProject
+        Battleship.cpp
         Battleship.h
         BattleshipsFactory.cpp
         BattleshipsFactory.h
+        Captain.cpp
         Captain.h
         CaptainFactory.cpp
         CaptainFactory.h
@@ -16,6 +18,7 @@ add_executable(GeekHubProject
         ChiefEngineerFactory.cpp
         ChiefEngineerFactory.h
         Command.h
+        Commander.cpp
         Commander.h
         CommanderFactory.cpp
         CommanderFactory.h
@@ -24,6 +27,7 @@ add_executable(GeekHubProject
         CommsFactory.h
         CrewFactory.cpp
         CrewFactory.h
+        CrewMember.cpp
         CrewMember.h
         Doctor.h
         DoctorFactory.cpp
@@ -31,6 +35,7 @@ add_executable(GeekHubProject
         Engineers.h
         EngineersFactory.cpp
         EngineersFactory.h
+        Exploration.cpp
         Exploration.h
         ExplorationFactory.cpp
         ExplorationFactory.h
@@ -40,21 +45,32 @@ add_executable(GeekHubProject
         Frigates.h
         FrigatesFactory.cpp
         FrigatesFactory.h
+        InvadeCommand.cpp
+        InvadeCommand.h
+        Iterator.cpp
+        Iterator.h
+        LogIterator.cpp
+        LogIterator.h
         main.cpp
+        Navigator.cpp
         Navigator.h
         NavigatorFactory.cpp
         NavigatorFactory.h
+        Passenger.cpp
         Passenger.h
         PassengerFactory.cpp
         PassengerFactory.h
+        Person.cpp
         Person.h
         PersonFactory.h
         PFighterFactory.cpp
         PFighterFactory.h
+        Spaceship.cpp
         Spaceship.h
         SpaceshipCreator.cpp
         SpaceshipCreator.h
         SpaceshipFactory.h
+        SpaceshipTransporter.cpp
         SpaceshipTransporter.h
         SpaceStation.cpp
         SpaceStation.h

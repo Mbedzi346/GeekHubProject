@@ -5,6 +5,6 @@
 
 class Battleship: public Spaceship{
 public:
-    virtual Iterator* createIterator() override{};
+    virtual Iterator* createIterator() override;
 };
 #endif

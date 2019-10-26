@@ -55,5 +55,5 @@ void Spaceship::removeLogEntry(string log){
 }
 
 bool Spaceship::isEmpty(){
-    return logs.isEmpty();
+    return logs.empty();
 }

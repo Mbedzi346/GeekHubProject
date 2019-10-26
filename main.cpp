@@ -15,12 +15,12 @@ int main(){
    // the spacestation
    SpaceStationFactory* _spaceStationFactory = new SpaceStationFactory();
    Spaceship*_spacestation = _spaceStationFactory->createSpaceship();
+    cout<<"The end. We do not have credits for this story :-("<<endl;
 
    // clean up
    delete _spaceStationFactory;
    delete _spacestation;
 
-   cout<<"The end. We do not have credits for this story :-("<<endl;
 
    return 0;
 }
