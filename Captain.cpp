@@ -1,4 +1,5 @@
 #include "Captain.h"
+#include <iostream>
 #include <algorithm>
 
 /**
@@ -31,18 +32,35 @@ void Captain::detach(Person* person){
  * @brief Notify all the observers
  * */
 void Captain::notify(){
-    /*for(auto i : members)
-        members->update();*/
+    if(type == -1){
+        cout<<"Gotta announce something first, Captain."<<endl;
+    }
+    if(type == 1){
+        for(auto i : passengers)
+            i->update();
+    } else if(type == 0){
+        for(auto i : crew)
+            i->update();
+    } else if(type == 2){
+        for(auto i : passengers)
+            i->update();
+        for(auto i : crew)
+            i->update();
+    }
+    type = -1;
 }
 void Captain::setPaxAnnouncement(std::string s){
     paxAnnouncement = s;
+    type = 1;
 };
 void Captain::setCrewAnnouncement(std::string s){
     crewAnnouncement = s;
+    type = 0;
 }
 void Captain::setGeneralAnnouncement(std::string s){
     setCrewAnnouncement(s);
     setPaxAnnouncement(s);
+    type = 2;
 }
 
 string Captain::getPaxAnnouncement(){

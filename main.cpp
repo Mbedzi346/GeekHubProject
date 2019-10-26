@@ -3,7 +3,10 @@
 #include "SpaceStation.h"
 #include "SpaceStationFactory.h"
 #include "Frigates.h"
-
+#include "Captain.h"
+#include "Passenger.h"
+#include "Fighter.h"
+#include "Doctor.h"
 using namespace std;
 
 int main(){
@@ -28,6 +31,25 @@ int main(){
    while (iterator->hasNext())
        cout<<iterator->next()<<endl;
 
+   auto* captain = new Captain();
+   auto* pax1 = new Passenger();
+   auto* pax2 = new Passenger();
+    auto* crew1 = new Doctor();
+    auto* crew2 = new Fighter();
+   captain->attach(pax1);
+   captain->attach(pax2);
+   captain->attach(crew1);
+   captain->attach(crew2);
+   pax1->setCaptain(captain);
+   pax2->setCaptain(captain);
+   crew1->setCaptain(captain);
+   crew2->setCaptain(captain);
+   captain->setPaxAnnouncement("We're going to have to make a diversion, hit some astroid or something, space stuff.");
+   captain->notify();
+   captain->setCrewAnnouncement("All stations, report to main deck immediately.");
+   captain->notify();
+   captain->setGeneralAnnouncement("Brace For Impact! Kidding, should've seen your faces, lol. Hope yall good.");
+   captain->notify();
    delete _spaceStationFactory;
    delete _spacestation;
 

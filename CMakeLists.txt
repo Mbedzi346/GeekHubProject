@@ -78,4 +78,4 @@ add_executable(GeekHubProject
         SpaceStationFactory.h
         SPFighterFactory.h
         SPTransporterFactory.cpp
-        SPTransporterFactory.h Frigates.cpp)
+        SPTransporterFactory.h Frigates.cpp Fighter.cpp)

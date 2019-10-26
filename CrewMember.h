@@ -5,11 +5,11 @@
 using namespace std;
 class CrewMember : public Person {
 public:
-    /*CrewMember(CrewMember*);
-    CrewMember(){};*/
-    virtual void attach(Person*){};
-    virtual void detach(Person*){};
-    virtual void notify(){};
+    /*CrewMember(CrewMember*);*/
+    CrewMember();
+    virtual void attach(Person*);
+    virtual void detach(Person*);
+    virtual void notify();
     virtual void update() override;
     virtual void setCaptain(Person* _captain) override;
 private:

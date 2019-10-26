@@ -19,6 +19,7 @@ public:
     string getPaxAnnouncement();
     string getCrewAnnouncement();
     string getGeneralAnnouncement();
+    int type = -1;
 private:
     std::vector<Person*> passengers;
     std::vector<Person*> crew;

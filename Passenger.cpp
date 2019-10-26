@@ -1,7 +1,7 @@
 
 #include "Passenger.h"
 #include "Captain.h"
-
+#include <iostream>
 using namespace std;
 
 /**
@@ -19,11 +19,12 @@ using namespace std;
 void Passenger::update() {
     if (announcement != dynamic_cast<Captain*>(captain)->getPaxAnnouncement())
         announcement = dynamic_cast<Captain*>(captain)->getPaxAnnouncement();
+    cout<<"Ladies & Gentlement, This is your captain speaking: "<<announcement<<endl;
 }
 
 /**
  * @brief initialize the captain member variable if not initialized via constructor
  * */
 void Passenger::setCaptain(Person* _captain){
-    captain = dynamic_cast<Captain*>(captain);
+    captain = dynamic_cast<Captain*>(_captain);
 }

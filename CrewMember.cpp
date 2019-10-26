@@ -1,8 +1,8 @@
 #include "CrewMember.h"
 #include "Person.h"
 #include "Captain.h"
-
-using  namespace std;
+#include "iostream"
+using namespace std;
 
 /**
  * @brief Construct the CrewMember object
@@ -19,8 +19,25 @@ using  namespace std;
 void CrewMember::update() {
     if (announcement != dynamic_cast<Captain*>(captain)->getCrewAnnouncement())
         this->announcement = dynamic_cast<Captain*>(captain)->getCrewAnnouncement();
+    cout<<"Crew Annoucement: "<<announcement<<endl;
 }
 
 void CrewMember::setCaptain(Person* _captain){
     captain = dynamic_cast<Captain*>(_captain);
+}
+
+void CrewMember::attach(Person *p) {
+
+}
+
+void CrewMember::detach(Person *p) {
+
+}
+
+void CrewMember::notify() {
+
+}
+
+CrewMember::CrewMember() {
+    setType("crew");
 }

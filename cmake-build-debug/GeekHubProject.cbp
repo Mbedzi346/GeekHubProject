@@ -181,6 +181,9 @@
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/ExplorationFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Fighter.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Fighter.h">
 			<Option target="GeekHubProject"/>
 		</Unit>

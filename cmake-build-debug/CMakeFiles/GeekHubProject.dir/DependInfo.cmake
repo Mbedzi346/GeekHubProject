@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/EngineersFactory.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/EngineersFactory.cpp.o"
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/Exploration.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/Exploration.cpp.o"
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/ExplorationFactory.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/ExplorationFactory.cpp.o"
+  "/Users/orifhambedzi/CLionProjects/GeekHubProject/Fighter.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/Fighter.cpp.o"
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/FighterTransporter.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/FighterTransporter.cpp.o"
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/Frigates.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/Frigates.cpp.o"
   "/Users/orifhambedzi/CLionProjects/GeekHubProject/FrigatesFactory.cpp" "/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles/GeekHubProject.dir/FrigatesFactory.cpp.o"

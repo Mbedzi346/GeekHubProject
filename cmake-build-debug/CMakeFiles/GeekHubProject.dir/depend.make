@@ -101,6 +101,11 @@ CMakeFiles/GeekHubProject.dir/ExplorationFactory.cpp.o: ../Spaceship.h
 CMakeFiles/GeekHubProject.dir/ExplorationFactory.cpp.o: ../SpaceshipCreator.h
 CMakeFiles/GeekHubProject.dir/ExplorationFactory.cpp.o: ../SpaceshipFactory.h
 
+CMakeFiles/GeekHubProject.dir/Fighter.cpp.o: ../CrewMember.h
+CMakeFiles/GeekHubProject.dir/Fighter.cpp.o: ../Fighter.cpp
+CMakeFiles/GeekHubProject.dir/Fighter.cpp.o: ../Fighter.h
+CMakeFiles/GeekHubProject.dir/Fighter.cpp.o: ../Person.h
+
 CMakeFiles/GeekHubProject.dir/FighterTransporter.cpp.o: ../FighterTransporter.cpp
 CMakeFiles/GeekHubProject.dir/FighterTransporter.cpp.o: ../FighterTransporter.h
 CMakeFiles/GeekHubProject.dir/FighterTransporter.cpp.o: ../Iterator.h
@@ -205,8 +210,14 @@ CMakeFiles/GeekHubProject.dir/SpaceshipTransporter.cpp.o: ../Spaceship.h
 CMakeFiles/GeekHubProject.dir/SpaceshipTransporter.cpp.o: ../SpaceshipTransporter.cpp
 CMakeFiles/GeekHubProject.dir/SpaceshipTransporter.cpp.o: ../SpaceshipTransporter.h
 
+CMakeFiles/GeekHubProject.dir/main.cpp.o: ../Captain.h
+CMakeFiles/GeekHubProject.dir/main.cpp.o: ../CrewMember.h
+CMakeFiles/GeekHubProject.dir/main.cpp.o: ../Doctor.h
+CMakeFiles/GeekHubProject.dir/main.cpp.o: ../Fighter.h
 CMakeFiles/GeekHubProject.dir/main.cpp.o: ../Frigates.h
 CMakeFiles/GeekHubProject.dir/main.cpp.o: ../Iterator.h
+CMakeFiles/GeekHubProject.dir/main.cpp.o: ../Passenger.h
+CMakeFiles/GeekHubProject.dir/main.cpp.o: ../Person.h
 CMakeFiles/GeekHubProject.dir/main.cpp.o: ../SpaceStation.h
 CMakeFiles/GeekHubProject.dir/main.cpp.o: ../SpaceStationFactory.h
 CMakeFiles/GeekHubProject.dir/main.cpp.o: ../Spaceship.h

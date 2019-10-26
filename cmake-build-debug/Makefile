@@ -501,6 +501,33 @@ ExplorationFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/ExplorationFactory.cpp.s
 .PHONY : ExplorationFactory.cpp.s
 
+Fighter.o: Fighter.cpp.o
+
+.PHONY : Fighter.o
+
+# target to build an object file
+Fighter.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Fighter.cpp.o
+.PHONY : Fighter.cpp.o
+
+Fighter.i: Fighter.cpp.i
+
+.PHONY : Fighter.i
+
+# target to preprocess a source file
+Fighter.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Fighter.cpp.i
+.PHONY : Fighter.cpp.i
+
+Fighter.s: Fighter.cpp.s
+
+.PHONY : Fighter.s
+
+# target to generate assembly for a file
+Fighter.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Fighter.cpp.s
+.PHONY : Fighter.cpp.s
+
 FighterTransporter.o: FighterTransporter.cpp.o
 
 .PHONY : FighterTransporter.o
@@ -1065,6 +1092,9 @@ help:
 	@echo "... ExplorationFactory.o"
 	@echo "... ExplorationFactory.i"
 	@echo "... ExplorationFactory.s"
+	@echo "... Fighter.o"
+	@echo "... Fighter.i"
+	@echo "... Fighter.s"
 	@echo "... FighterTransporter.o"
 	@echo "... FighterTransporter.i"
 	@echo "... FighterTransporter.s"
