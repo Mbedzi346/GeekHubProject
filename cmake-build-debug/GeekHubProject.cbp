@@ -8,463 +8,459 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug"/>
+				<Option working_dir="/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug"/>
+				<Option working_dir="/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="GeekHubProject">
-				<Option output="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/GeekHubProject" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/lindo/Desktop/school/cos214/project/GeekHubProject/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeekHubProject"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="GeekHubProject/fast">
-				<Option output="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/GeekHubProject" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/lindo/Desktop/school/cos214/project/GeekHubProject/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeekHubProject/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug"/>
+				<Option working_dir="/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GeekHubProject">
+				<Option output="/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/GeekHubProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/orifhambedzi/CLionProjects/GeekHubProject2/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeekHubProject"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GeekHubProject/fast">
+				<Option output="/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/GeekHubProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/orifhambedzi/CLionProjects/GeekHubProject2/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeekHubProject/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/orifhambedzi/CLionProjects/GeekHubProject2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/AbstractExpression.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/AbstractExpression.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/AirconditioningDecorator.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/AirconditioningDecorator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/AirconditioningDecorator.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/AirconditioningDecorator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Battleship.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Battleship.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Battleship.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Battleship.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/BattleshipsFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/BattleshipsFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/BattleshipsFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/BattleshipsFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Bridge.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Bridge.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Bridge.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Bridge.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Captain.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Captain.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Captain.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Captain.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CaptainFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/CaptainFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CaptainFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/CaptainFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Caretaker.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Caretaker.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Caretaker.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Caretaker.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ChiefEngineer.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/ChiefEngineer.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ChiefEngineerFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/ChiefEngineerFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ChiefEngineerFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/ChiefEngineerFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Command.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Command.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Commander.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Commander.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Commander.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Commander.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CommanderFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/CommanderFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CommanderFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/CommanderFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Comms.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Comms.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CommsFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/CommsFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CommsFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/CommsFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Component.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Component.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ConcreteMediator.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/ConcreteMediator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ConcreteMediator.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/ConcreteMediator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ConstantExpression.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/ConstantExpression.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ConstantExpression.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/ConstantExpression.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Context.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Context.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Context.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Context.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/CrewFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/CrewFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewMember.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/CrewMember.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewMember.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/CrewMember.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Critter.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Critter.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Critter.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Critter.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Decorator.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Decorator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Decorator.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Decorator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Doctor.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Doctor.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Doctor.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Doctor.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/DoctorFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/DoctorFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/DoctorFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/DoctorFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/DoctorHandler.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/DoctorHandler.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/DoctorHandler.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/DoctorHandler.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EmptyFuelState.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/EmptyFuelState.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EmptyFuelState.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/EmptyFuelState.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EngineerHandler.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/EngineerHandler.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EngineerHandler.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/EngineerHandler.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Engineers.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Engineers.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Engineers.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Engineers.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EngineersFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/EngineersFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EngineersFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/EngineersFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Exploration.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Exploration.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Exploration.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Exploration.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ExplorationFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/ExplorationFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ExplorationFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/ExplorationFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Fighter.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Fighter.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Fighter.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Fighter.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FighterHandler.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/FighterHandler.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FighterHandler.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/FighterHandler.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FighterTransporter.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/FighterTransporter.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FighterTransporter.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/FighterTransporter.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Frigates.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Frigates.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Frigates.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Frigates.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FrigatesFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/FrigatesFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FrigatesFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/FrigatesFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FullFuelState.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/FullFuelState.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FullFuelState.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/FullFuelState.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/InvadeCommand.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/InvadeCommand.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/InvadeCommand.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/InvadeCommand.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Iterator.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Iterator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Iterator.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Iterator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/LogIterator.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/LogIterator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/LogIterator.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/LogIterator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Mediator.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Mediator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Mediator.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Mediator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Memento.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Memento.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Memento.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Memento.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/MidFuelState.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/MidFuelState.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/MidFuelState.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/MidFuelState.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Navigator.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Navigator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Navigator.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Navigator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/NavigatorFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/NavigatorFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/NavigatorFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/NavigatorFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PFighterFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/PFighterFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PFighterFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/PFighterFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Passenger.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Passenger.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Passenger.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Passenger.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PassengerFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/PassengerFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PassengerFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/PassengerFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Person.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Person.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Person.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Person.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PersonFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/PersonFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PremiumSoftwareDecorator.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/PremiumSoftwareDecorator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PremiumSoftwareDecorator.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/PremiumSoftwareDecorator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ProblemHandler.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/ProblemHandler.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ProblemHandler.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/ProblemHandler.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SPFighterFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SPFighterFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SPTransporterFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SPTransporterFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SPTransporterFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SPTransporterFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SickBay.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SickBay.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SickBay.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SickBay.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SleepingQuarters.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SleepingQuarters.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SleepingQuarters.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SleepingQuarters.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceStation.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SpaceStation.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceStation.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SpaceStation.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceStationFactory.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SpaceStationFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceStationFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SpaceStationFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Spaceship.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Spaceship.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Spaceship.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/Spaceship.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceshipCreator.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SpaceshipCreator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceshipCreator.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SpaceshipCreator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceshipFactory.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SpaceshipFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceshipTransporter.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SpaceshipTransporter.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceshipTransporter.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/SpaceshipTransporter.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/State.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/State.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/State.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/State.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/TVDecorator.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/TVDecorator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/TVDecorator.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/TVDecorator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/VariableExpression.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/VariableExpression.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/VariableExpression.h">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/VariableExpression.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/main.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/main.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/testCritters.cpp">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/testCritters.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CMakeLists.txt">
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

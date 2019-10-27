@@ -24,7 +24,7 @@
 using namespace std;
 
 int main(){
-    /*
+
     //------------------------Creation, Abstract Factory-------------------
     cout<<"\n------------------------Creation, Abstract Factory-------------------\n"<<endl;
    auto* _spaceStationFactory = new SpaceStationFactory();
@@ -96,10 +96,10 @@ int main(){
    cout<<spaceship->getState()->getFuelLevel()<<endl;
    delete _spaceStationFactory;
    delete _spacestation;
-    */
+
 
     // Commander design pattern testing
-
+    cout<<"\n---------------------- Commander -------------------------------------\n"<<endl;
     Spaceship* frigates = new Frigates();  // Receiver
     Command* invadePlanetCommand = new InvadeCommand(frigates);  // Command
     Commander* commanderOrder = new Commander(invadePlanetCommand);  // Invoker
@@ -107,6 +107,7 @@ int main(){
 
 
     // Decorator design pattern testing
+    cout<<"\n---------------------- Decorator -------------------------------------\n"<<endl;
 
     Component* sickbay = new SickBay();
     Component* bridge = new Bridge();
@@ -119,6 +120,20 @@ int main(){
 
     cout << tv->description() << endl;
     cout << airCon->description() << endl;
+
+    // Intepreter design pattern testing
+    cout<<"\n---------------------- Intepreter -------------------------------------\n"<<endl;
+    Critter* _critter = new Critter();
+//    AbstractExpression* _interpreter;
+    Context* _ctx = new Context();
+    _ctx->assign("No", "You're not");
+    _ctx->assign("Welcum", "Welcome");
+    _ctx->assign("Amica", "Friend");
+    CrewMember* _fighter = new Fighter(3);
+    _fighter->encounterCritter(_critter, _ctx);
+
+//    delete_critter;
+
 
    return 0;
 }

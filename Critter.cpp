@@ -1,5 +1,6 @@
 #include <string>
 #include <stdlib.h>
+#include <iostream>
 
 #include "Critter.h"
 #include "AbstractExpression.h"
@@ -43,6 +44,7 @@ void Critter::use(){
 	srand(time(NULL));
 	int badMood = rand() %  4 + 2;
 	tolerance -= badMood;
+    cout<<"Critter is doing work. Tolerance: "<<tolerance<<endl;
 	if(tolerance < 0) tolerance = 0;
 }
 

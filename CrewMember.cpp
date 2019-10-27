@@ -4,7 +4,7 @@
 #include "iostream"
 #include "VariableExpression.h"
 #include "AbstractExpression.h"
-#include <stdlib>
+#include <cstdlib>
 
 using namespace std;
 
@@ -43,10 +43,10 @@ void CrewMember::encounterCritter(Critter *_critter, Context *_ctx) {
     for(int i = 0; i < useCritterCount; i++){
         _critter->use();
         if(_critter->isEnemy()){
-            cout<<"Critter is now angry and trying to fight CrewMember";
+            cout<<"Critter is now angry and trying to fight CrewMember"<<endl;
             _intepreter->setOperands(_critter->interact());
             _intepreter->evaluate(*_ctx);
-            cout<<"CrewMember kills Critter"<<endl;
+            cout<<"Critter: "<<_intepreter->evaluate(*_ctx)<<endl;
             break;
         }
     }
