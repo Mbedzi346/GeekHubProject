@@ -2,5 +2,5 @@
 #include "Engineers.h"
 
 Person* EngineersFactory::createPerson() {
-	return new Engineers();
+	return new Engineers(1);
 }

@@ -2,5 +2,5 @@
 #include "ChiefEngineer.h"
 
 Person* ChiefEngineerFactory::createPerson() {
-    return new ChiefEngineer();
+    return new ChiefEngineer(10);
 }

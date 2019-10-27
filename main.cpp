@@ -7,6 +7,8 @@
 #include "Passenger.h"
 #include "Fighter.h"
 #include "Doctor.h"
+#include "DoctorHandler.h"
+#include "Engineers.h"
 using namespace std;
 
 int main(){
@@ -31,11 +33,21 @@ int main(){
    while (iterator->hasNext())
        cout<<iterator->next()<<endl;
 
-   auto* captain = new Captain();
+   auto* captain = new Captain(10);
    auto* pax1 = new Passenger();
    auto* pax2 = new Passenger();
-    auto* crew1 = new Doctor();
-    auto* crew2 = new Fighter();
+    auto* crew1 = new Doctor(0);
+    auto* crew2 = new Doctor(1);
+    auto* crew3 = new Doctor(2);
+    auto* crew4 = new Doctor(3);
+    auto* doctorHandler = new DoctorHandler(crew1);
+    auto* doctorHandler1 = new DoctorHandler(crew2);
+    auto* doctorHandler2 = new DoctorHandler(crew3);
+    auto* doctorHandler3 = new DoctorHandler(crew4);
+    doctorHandler->setNextChain(doctorHandler1);
+    doctorHandler1->setNextChain(doctorHandler2);
+    doctorHandler2->setNextChain(doctorHandler3);
+    doctorHandler->handle(3);
    captain->attach(pax1);
    captain->attach(pax2);
    captain->attach(crew1);

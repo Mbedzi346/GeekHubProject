@@ -3,5 +3,5 @@
 #include "Doctor.h"
 
 Person* DoctorFactory::createPerson() {
-	return (Person*) new Doctor();
+	return (Person*) new Doctor(1);
 }

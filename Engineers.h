@@ -5,7 +5,7 @@
 
 class Engineers : public CrewMember {
     public:
-        Engineers(){};
+        Engineers(int r);
 };
 
 #endif

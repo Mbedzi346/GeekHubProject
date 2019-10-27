@@ -5,7 +5,7 @@
 
 class Comms : public CrewMember {
     public:
-        Comms(){};
+        Comms(int r) : CrewMember(r){};
 };
 
 #endif

@@ -7,5 +7,5 @@
  * @return returns Captain Object which is a Person (ancestor class)
  * */
 Person* CaptainFactory::createPerson() {
-	return new Captain();
+	return new Captain(10);
 }

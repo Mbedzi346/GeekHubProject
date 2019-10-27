@@ -12,3 +12,7 @@ void Fighter::setCaptain(Person *_captain) {
     CrewMember::setCaptain(_captain);
 }
 
+Fighter::Fighter(int r) : CrewMember(r) {
+
+}
+

@@ -38,6 +38,7 @@ void CrewMember::notify() {
 
 }
 
-CrewMember::CrewMember() {
+CrewMember::CrewMember(int r) {
     setType("crew");
+    rank = r;
 }

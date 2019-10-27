@@ -5,7 +5,7 @@
 
 class ChiefEngineer : public CrewMember {
     public:
-        ChiefEngineer(){};
+        ChiefEngineer(int r) : CrewMember(r){};
 };
 
 #endif

@@ -151,6 +151,9 @@
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/CrewMember.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Doctor.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Doctor.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
@@ -158,6 +161,21 @@
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/DoctorFactory.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/DoctorHandler.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/DoctorHandler.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/EngineerHandler.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/EngineerHandler.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Engineers.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Engineers.h">
@@ -185,6 +203,12 @@
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Fighter.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/FighterHandler.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/FighterHandler.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/FighterTransporter.cpp">
@@ -260,6 +284,12 @@
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/PersonFactory.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/ProblemHandler.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/ProblemHandler.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/SPFighterFactory.h">

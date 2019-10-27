@@ -2,5 +2,5 @@
 #include "Comms.h"
 
 Person* CommsFactory::createPerson() {
-	return (Person*) new Comms();
+	return (Person*) new Comms(1);
 }

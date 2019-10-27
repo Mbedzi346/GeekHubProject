@@ -6,7 +6,7 @@
 
 class Commander : public CrewMember {
     public:
-        Commander(){};
+        Commander() : CrewMember(15){};
         Commander(Command*);
         void proceedWithInvasion();
         void setCommand(Command*);

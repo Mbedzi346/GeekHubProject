@@ -5,7 +5,7 @@
 
 class Fighter : public CrewMember {
     public:
-    Fighter(){};
+    Fighter(int r);
     virtual void update() override;
     virtual void setCaptain(Person* _captain);
 };

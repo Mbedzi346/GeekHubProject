@@ -499,6 +499,84 @@ CMakeFiles/GeekHubProject.dir/Fighter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeekHubProject.dir/Fighter.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/orifhambedzi/CLionProjects/GeekHubProject/Fighter.cpp -o CMakeFiles/GeekHubProject.dir/Fighter.cpp.s
 
+CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.o: CMakeFiles/GeekHubProject.dir/flags.make
+CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.o: ../ProblemHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.o -c /Users/orifhambedzi/CLionProjects/GeekHubProject/ProblemHandler.cpp
+
+CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/orifhambedzi/CLionProjects/GeekHubProject/ProblemHandler.cpp > CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.i
+
+CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/orifhambedzi/CLionProjects/GeekHubProject/ProblemHandler.cpp -o CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.s
+
+CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.o: CMakeFiles/GeekHubProject.dir/flags.make
+CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.o: ../DoctorHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.o -c /Users/orifhambedzi/CLionProjects/GeekHubProject/DoctorHandler.cpp
+
+CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/orifhambedzi/CLionProjects/GeekHubProject/DoctorHandler.cpp > CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.i
+
+CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/orifhambedzi/CLionProjects/GeekHubProject/DoctorHandler.cpp -o CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.s
+
+CMakeFiles/GeekHubProject.dir/Doctor.cpp.o: CMakeFiles/GeekHubProject.dir/flags.make
+CMakeFiles/GeekHubProject.dir/Doctor.cpp.o: ../Doctor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/GeekHubProject.dir/Doctor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeekHubProject.dir/Doctor.cpp.o -c /Users/orifhambedzi/CLionProjects/GeekHubProject/Doctor.cpp
+
+CMakeFiles/GeekHubProject.dir/Doctor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeekHubProject.dir/Doctor.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/orifhambedzi/CLionProjects/GeekHubProject/Doctor.cpp > CMakeFiles/GeekHubProject.dir/Doctor.cpp.i
+
+CMakeFiles/GeekHubProject.dir/Doctor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeekHubProject.dir/Doctor.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/orifhambedzi/CLionProjects/GeekHubProject/Doctor.cpp -o CMakeFiles/GeekHubProject.dir/Doctor.cpp.s
+
+CMakeFiles/GeekHubProject.dir/Engineers.cpp.o: CMakeFiles/GeekHubProject.dir/flags.make
+CMakeFiles/GeekHubProject.dir/Engineers.cpp.o: ../Engineers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/GeekHubProject.dir/Engineers.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeekHubProject.dir/Engineers.cpp.o -c /Users/orifhambedzi/CLionProjects/GeekHubProject/Engineers.cpp
+
+CMakeFiles/GeekHubProject.dir/Engineers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeekHubProject.dir/Engineers.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/orifhambedzi/CLionProjects/GeekHubProject/Engineers.cpp > CMakeFiles/GeekHubProject.dir/Engineers.cpp.i
+
+CMakeFiles/GeekHubProject.dir/Engineers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeekHubProject.dir/Engineers.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/orifhambedzi/CLionProjects/GeekHubProject/Engineers.cpp -o CMakeFiles/GeekHubProject.dir/Engineers.cpp.s
+
+CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.o: CMakeFiles/GeekHubProject.dir/flags.make
+CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.o: ../FighterHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.o -c /Users/orifhambedzi/CLionProjects/GeekHubProject/FighterHandler.cpp
+
+CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/orifhambedzi/CLionProjects/GeekHubProject/FighterHandler.cpp > CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.i
+
+CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/orifhambedzi/CLionProjects/GeekHubProject/FighterHandler.cpp -o CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.s
+
+CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o: CMakeFiles/GeekHubProject.dir/flags.make
+CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o: ../EngineerHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o -c /Users/orifhambedzi/CLionProjects/GeekHubProject/EngineerHandler.cpp
+
+CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/orifhambedzi/CLionProjects/GeekHubProject/EngineerHandler.cpp > CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.i
+
+CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/orifhambedzi/CLionProjects/GeekHubProject/EngineerHandler.cpp -o CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.s
+
 # Object files for target GeekHubProject
 GeekHubProject_OBJECTS = \
 "CMakeFiles/GeekHubProject.dir/Battleship.cpp.o" \
@@ -534,7 +612,13 @@ GeekHubProject_OBJECTS = \
 "CMakeFiles/GeekHubProject.dir/SpaceStationFactory.cpp.o" \
 "CMakeFiles/GeekHubProject.dir/SPTransporterFactory.cpp.o" \
 "CMakeFiles/GeekHubProject.dir/Frigates.cpp.o" \
-"CMakeFiles/GeekHubProject.dir/Fighter.cpp.o"
+"CMakeFiles/GeekHubProject.dir/Fighter.cpp.o" \
+"CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.o" \
+"CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.o" \
+"CMakeFiles/GeekHubProject.dir/Doctor.cpp.o" \
+"CMakeFiles/GeekHubProject.dir/Engineers.cpp.o" \
+"CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.o" \
+"CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o"
 
 # External object files for target GeekHubProject
 GeekHubProject_EXTERNAL_OBJECTS =
@@ -573,9 +657,15 @@ GeekHubProject: CMakeFiles/GeekHubProject.dir/SpaceStationFactory.cpp.o
 GeekHubProject: CMakeFiles/GeekHubProject.dir/SPTransporterFactory.cpp.o
 GeekHubProject: CMakeFiles/GeekHubProject.dir/Frigates.cpp.o
 GeekHubProject: CMakeFiles/GeekHubProject.dir/Fighter.cpp.o
+GeekHubProject: CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.o
+GeekHubProject: CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.o
+GeekHubProject: CMakeFiles/GeekHubProject.dir/Doctor.cpp.o
+GeekHubProject: CMakeFiles/GeekHubProject.dir/Engineers.cpp.o
+GeekHubProject: CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.o
+GeekHubProject: CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o
 GeekHubProject: CMakeFiles/GeekHubProject.dir/build.make
 GeekHubProject: CMakeFiles/GeekHubProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable GeekHubProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable GeekHubProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GeekHubProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

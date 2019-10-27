@@ -7,5 +7,5 @@
  * @return returns a Navigator Object which is a Person (Abstract ancestor class)
  * */
 Person* NavigatorFactory::createPerson() {
-    return  (Person*) new Navigator();
+    return  (Person*) new Navigator(1);
 }

@@ -393,6 +393,33 @@ CrewMember.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/CrewMember.cpp.s
 .PHONY : CrewMember.cpp.s
 
+Doctor.o: Doctor.cpp.o
+
+.PHONY : Doctor.o
+
+# target to build an object file
+Doctor.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Doctor.cpp.o
+.PHONY : Doctor.cpp.o
+
+Doctor.i: Doctor.cpp.i
+
+.PHONY : Doctor.i
+
+# target to preprocess a source file
+Doctor.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Doctor.cpp.i
+.PHONY : Doctor.cpp.i
+
+Doctor.s: Doctor.cpp.s
+
+.PHONY : Doctor.s
+
+# target to generate assembly for a file
+Doctor.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Doctor.cpp.s
+.PHONY : Doctor.cpp.s
+
 DoctorFactory.o: DoctorFactory.cpp.o
 
 .PHONY : DoctorFactory.o
@@ -419,6 +446,87 @@ DoctorFactory.s: DoctorFactory.cpp.s
 DoctorFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/DoctorFactory.cpp.s
 .PHONY : DoctorFactory.cpp.s
+
+DoctorHandler.o: DoctorHandler.cpp.o
+
+.PHONY : DoctorHandler.o
+
+# target to build an object file
+DoctorHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.o
+.PHONY : DoctorHandler.cpp.o
+
+DoctorHandler.i: DoctorHandler.cpp.i
+
+.PHONY : DoctorHandler.i
+
+# target to preprocess a source file
+DoctorHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.i
+.PHONY : DoctorHandler.cpp.i
+
+DoctorHandler.s: DoctorHandler.cpp.s
+
+.PHONY : DoctorHandler.s
+
+# target to generate assembly for a file
+DoctorHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.s
+.PHONY : DoctorHandler.cpp.s
+
+EngineerHandler.o: EngineerHandler.cpp.o
+
+.PHONY : EngineerHandler.o
+
+# target to build an object file
+EngineerHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o
+.PHONY : EngineerHandler.cpp.o
+
+EngineerHandler.i: EngineerHandler.cpp.i
+
+.PHONY : EngineerHandler.i
+
+# target to preprocess a source file
+EngineerHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.i
+.PHONY : EngineerHandler.cpp.i
+
+EngineerHandler.s: EngineerHandler.cpp.s
+
+.PHONY : EngineerHandler.s
+
+# target to generate assembly for a file
+EngineerHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.s
+.PHONY : EngineerHandler.cpp.s
+
+Engineers.o: Engineers.cpp.o
+
+.PHONY : Engineers.o
+
+# target to build an object file
+Engineers.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Engineers.cpp.o
+.PHONY : Engineers.cpp.o
+
+Engineers.i: Engineers.cpp.i
+
+.PHONY : Engineers.i
+
+# target to preprocess a source file
+Engineers.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Engineers.cpp.i
+.PHONY : Engineers.cpp.i
+
+Engineers.s: Engineers.cpp.s
+
+.PHONY : Engineers.s
+
+# target to generate assembly for a file
+Engineers.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Engineers.cpp.s
+.PHONY : Engineers.cpp.s
 
 EngineersFactory.o: EngineersFactory.cpp.o
 
@@ -527,6 +635,33 @@ Fighter.s: Fighter.cpp.s
 Fighter.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Fighter.cpp.s
 .PHONY : Fighter.cpp.s
+
+FighterHandler.o: FighterHandler.cpp.o
+
+.PHONY : FighterHandler.o
+
+# target to build an object file
+FighterHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.o
+.PHONY : FighterHandler.cpp.o
+
+FighterHandler.i: FighterHandler.cpp.i
+
+.PHONY : FighterHandler.i
+
+# target to preprocess a source file
+FighterHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.i
+.PHONY : FighterHandler.cpp.i
+
+FighterHandler.s: FighterHandler.cpp.s
+
+.PHONY : FighterHandler.s
+
+# target to generate assembly for a file
+FighterHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.s
+.PHONY : FighterHandler.cpp.s
 
 FighterTransporter.o: FighterTransporter.cpp.o
 
@@ -852,6 +987,33 @@ Person.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Person.cpp.s
 .PHONY : Person.cpp.s
 
+ProblemHandler.o: ProblemHandler.cpp.o
+
+.PHONY : ProblemHandler.o
+
+# target to build an object file
+ProblemHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.o
+.PHONY : ProblemHandler.cpp.o
+
+ProblemHandler.i: ProblemHandler.cpp.i
+
+.PHONY : ProblemHandler.i
+
+# target to preprocess a source file
+ProblemHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.i
+.PHONY : ProblemHandler.cpp.i
+
+ProblemHandler.s: ProblemHandler.cpp.s
+
+.PHONY : ProblemHandler.s
+
+# target to generate assembly for a file
+ProblemHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.s
+.PHONY : ProblemHandler.cpp.s
+
 SPTransporterFactory.o: SPTransporterFactory.cpp.o
 
 .PHONY : SPTransporterFactory.o
@@ -1080,9 +1242,21 @@ help:
 	@echo "... CrewMember.o"
 	@echo "... CrewMember.i"
 	@echo "... CrewMember.s"
+	@echo "... Doctor.o"
+	@echo "... Doctor.i"
+	@echo "... Doctor.s"
 	@echo "... DoctorFactory.o"
 	@echo "... DoctorFactory.i"
 	@echo "... DoctorFactory.s"
+	@echo "... DoctorHandler.o"
+	@echo "... DoctorHandler.i"
+	@echo "... DoctorHandler.s"
+	@echo "... EngineerHandler.o"
+	@echo "... EngineerHandler.i"
+	@echo "... EngineerHandler.s"
+	@echo "... Engineers.o"
+	@echo "... Engineers.i"
+	@echo "... Engineers.s"
 	@echo "... EngineersFactory.o"
 	@echo "... EngineersFactory.i"
 	@echo "... EngineersFactory.s"
@@ -1095,6 +1269,9 @@ help:
 	@echo "... Fighter.o"
 	@echo "... Fighter.i"
 	@echo "... Fighter.s"
+	@echo "... FighterHandler.o"
+	@echo "... FighterHandler.i"
+	@echo "... FighterHandler.s"
 	@echo "... FighterTransporter.o"
 	@echo "... FighterTransporter.i"
 	@echo "... FighterTransporter.s"
@@ -1131,6 +1308,9 @@ help:
 	@echo "... Person.o"
 	@echo "... Person.i"
 	@echo "... Person.s"
+	@echo "... ProblemHandler.o"
+	@echo "... ProblemHandler.i"
+	@echo "... ProblemHandler.s"
 	@echo "... SPTransporterFactory.o"
 	@echo "... SPTransporterFactory.i"
 	@echo "... SPTransporterFactory.s"

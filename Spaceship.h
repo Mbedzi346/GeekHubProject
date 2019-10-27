@@ -17,6 +17,7 @@ private:
     double stallSpeed;
     int crew;
     int passengers;
+    int fuel = 100;
     Iterator* iterator;
     vector<string> logs;
 public:

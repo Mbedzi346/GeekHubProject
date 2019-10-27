@@ -7,3 +7,6 @@ using namespace std;
 //Navigator::Navigator(){
 //
 //}
+Navigator::Navigator(int r) : CrewMember(r) {
+
+}

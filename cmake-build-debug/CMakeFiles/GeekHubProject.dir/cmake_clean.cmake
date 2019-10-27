@@ -33,6 +33,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/GeekHubProject.dir/SPTransporterFactory.cpp.o"
   "CMakeFiles/GeekHubProject.dir/Frigates.cpp.o"
   "CMakeFiles/GeekHubProject.dir/Fighter.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/ProblemHandler.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/Doctor.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/Engineers.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o"
   "GeekHubProject.pdb"
   "GeekHubProject"
 )

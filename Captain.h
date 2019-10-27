@@ -9,7 +9,7 @@ using namespace std;
 
 class Captain : public CrewMember {
 public:
-//    Captain(){};
+    Captain(int r) : CrewMember(r){};
     virtual void attach(Person*) override ;
     virtual void detach(Person*) override ;
     virtual void notify() override;
