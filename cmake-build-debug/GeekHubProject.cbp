@@ -8,459 +8,463 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug"/>
+				<Option working_dir="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="GeekHubProject">
-				<Option output="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/GeekHubProject.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/."/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeekHubProject"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="GeekHubProject/fast">
-				<Option output="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/GeekHubProject.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/."/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeekHubProject/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug"/>
+				<Option working_dir="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GeekHubProject">
+				<Option output="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/GeekHubProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lindo/Desktop/school/cos214/project/GeekHubProject/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeekHubProject"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GeekHubProject/fast">
+				<Option output="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/GeekHubProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lindo/Desktop/school/cos214/project/GeekHubProject/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeekHubProject/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lindo/Desktop/school/cos214/project/GeekHubProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/AbstractExpression.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/AbstractExpression.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/AirconditioningDecorator.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/AirconditioningDecorator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/AirconditioningDecorator.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/AirconditioningDecorator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Battleship.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Battleship.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Battleship.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Battleship.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/BattleshipsFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/BattleshipsFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/BattleshipsFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/BattleshipsFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Bridge.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Bridge.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Bridge.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Bridge.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Captain.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Captain.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Captain.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Captain.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/CaptainFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CaptainFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/CaptainFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CaptainFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Caretaker.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Caretaker.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Caretaker.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Caretaker.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/ChiefEngineer.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ChiefEngineer.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/ChiefEngineerFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ChiefEngineerFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/ChiefEngineerFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ChiefEngineerFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Command.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Command.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Commander.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Commander.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Commander.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Commander.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/CommanderFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CommanderFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/CommanderFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CommanderFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Comms.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Comms.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/CommsFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CommsFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/CommsFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CommsFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Component.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Component.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/ConcreteMediator.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ConcreteMediator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/ConcreteMediator.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ConcreteMediator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/ConstantExpression.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ConstantExpression.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/ConstantExpression.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ConstantExpression.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Context.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Context.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Context.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Context.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/CrewFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/CrewFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/CrewMember.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewMember.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/CrewMember.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CrewMember.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Critter.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Critter.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Critter.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Critter.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Decorator.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Decorator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Decorator.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Decorator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Doctor.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Doctor.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Doctor.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Doctor.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/DoctorFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/DoctorFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/DoctorFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/DoctorFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/DoctorHandler.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/DoctorHandler.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/DoctorHandler.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/DoctorHandler.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/EmptyFuelState.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EmptyFuelState.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/EmptyFuelState.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EmptyFuelState.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/EngineerHandler.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EngineerHandler.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/EngineerHandler.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EngineerHandler.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Engineers.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Engineers.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Engineers.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Engineers.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/EngineersFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EngineersFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/EngineersFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/EngineersFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Exploration.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Exploration.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Exploration.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Exploration.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/ExplorationFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ExplorationFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/ExplorationFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ExplorationFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Fighter.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Fighter.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Fighter.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Fighter.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/FighterHandler.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FighterHandler.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/FighterHandler.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FighterHandler.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/FighterTransporter.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FighterTransporter.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/FighterTransporter.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FighterTransporter.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Frigates.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Frigates.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Frigates.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Frigates.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/FrigatesFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FrigatesFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/FrigatesFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FrigatesFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/FullFuelState.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FullFuelState.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/FullFuelState.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/FullFuelState.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/InvadeCommand.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/InvadeCommand.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/InvadeCommand.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/InvadeCommand.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Iterator.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Iterator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Iterator.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Iterator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/LogIterator.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/LogIterator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/LogIterator.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/LogIterator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Mediator.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Mediator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Mediator.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Mediator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Memento.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Memento.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Memento.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Memento.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/MidFuelState.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/MidFuelState.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/MidFuelState.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/MidFuelState.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Navigator.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Navigator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Navigator.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Navigator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/NavigatorFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/NavigatorFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/NavigatorFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/NavigatorFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/PFighterFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PFighterFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/PFighterFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PFighterFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Passenger.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Passenger.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Passenger.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Passenger.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/PassengerFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PassengerFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/PassengerFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PassengerFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Person.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Person.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Person.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Person.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/PersonFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PersonFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/PremiumSoftwareDecorator.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PremiumSoftwareDecorator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/PremiumSoftwareDecorator.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/PremiumSoftwareDecorator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/ProblemHandler.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ProblemHandler.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/ProblemHandler.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/ProblemHandler.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SPFighterFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SPFighterFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SPTransporterFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SPTransporterFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SPTransporterFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SPTransporterFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SickBay.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SickBay.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SickBay.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SickBay.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SleepingQuarters.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SleepingQuarters.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SleepingQuarters.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SleepingQuarters.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SpaceStation.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceStation.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SpaceStation.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceStation.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SpaceStationFactory.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceStationFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SpaceStationFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceStationFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Spaceship.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Spaceship.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/Spaceship.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/Spaceship.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SpaceshipCreator.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceshipCreator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SpaceshipCreator.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceshipCreator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SpaceshipFactory.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceshipFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SpaceshipTransporter.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceshipTransporter.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/SpaceshipTransporter.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/SpaceshipTransporter.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/State.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/State.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/State.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/State.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/TVDecorator.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/TVDecorator.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/TVDecorator.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/TVDecorator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/VariableExpression.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/VariableExpression.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/VariableExpression.h">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/VariableExpression.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/main.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/main.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/testCritters.cpp">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/testCritters.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
-		<Unit filename="C:/Users/27714/Documents/My Backup/Computer Science 2019/COS 214 - Software Modelling/GeekHubProject/CMakeLists.txt">
+		<Unit filename="/home/lindo/Desktop/school/cos214/project/GeekHubProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

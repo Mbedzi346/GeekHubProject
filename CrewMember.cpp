@@ -2,6 +2,10 @@
 #include "Person.h"
 #include "Captain.h"
 #include "iostream"
+#include "VariableExpression.h"
+#include "AbstractExpression.h"
+#include <stdlib>
+
 using namespace std;
 
 /**
@@ -20,6 +24,38 @@ void CrewMember::update() {
     if (announcement != dynamic_cast<Captain*>(captain)->getCrewAnnouncement())
         this->announcement = dynamic_cast<Captain*>(captain)->getCrewAnnouncement();
     cout<<"Crew Annoucement: "<<announcement<<endl;
+}
+
+/**
+ * @brief CrewMember encounters a Critter and interacts  with it.
+ * interaction involves calling one or all the member functions of the critter object
+ * could have done this in the main but since it is the CrewMembers interacting with the critter, the code is placed in
+ * CrewMember's encounter function
+ * @param _critter for CrewMember to interac with
+ * @param _ctx context for storing and lookup functionality
+ */
+void CrewMember::encounterCritter(Critter *_critter, Context *_ctx) {
+    AbstractExpression* _intepreter = new VariableExpression(_critter->interact());
+    cout<<"CreMember encounters Critter."<<endl;
+    cout<<"Critter: "<<_intepreter->evaluate(*_ctx)<<endl;
+    int useCritterCount = rand() % 14 + 6;
+    // use critter random amount of times
+    for(int i = 0; i < useCritterCount; i++){
+        _critter->use();
+        if(_critter->isEnemy()){
+            cout<<"Critter is now angry and trying to fight CrewMember";
+            _intepreter->setOperands(_critter->interact());
+            _intepreter->evaluate(*_ctx);
+            cout<<"CrewMember kills Critter"<<endl;
+            break;
+        }
+    }
+    if(!_critter->isEnemy()){
+        _intepreter->setOperands(_critter->interact());
+        _intepreter->evaluate(*_ctx);
+    }
+
+    delete _intepreter;
 }
 
 void CrewMember::setCaptain(Person* _captain){

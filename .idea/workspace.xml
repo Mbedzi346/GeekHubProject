@@ -11,15 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5760984-3da6-4c4b-b811-1da59cb6e5eb" name="Default Changelist" comment="">
+    <list default="true" id="f5760984-3da6-4c4b-b811-1da59cb6e5eb" name="Default Changelist" comment="Intepreter Integrated with CrewMember">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commander.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Commander.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Critter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Critter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvadeCommand.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/InvadeCommand.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Memento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spaceship.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Spaceship.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spaceship.h" beforeDir="false" afterPath="$PROJECT_DIR$/Spaceship.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractExpression.h" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractExpression.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrewMember.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CrewMember.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrewMember.h" beforeDir="false" afterPath="$PROJECT_DIR$/CrewMember.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
@@ -29,17 +25,15 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeekHubProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeekHubProject.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeekHubProject.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeekHubProject.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeekHubProject.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeekHubProject.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeekHubProject.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeekHubProject.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/GeekHubProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GeekHubProject.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCritters.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/testCritters.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -248,7 +242,8 @@
     <MESSAGE value="Captain Announcement Observer fixed." />
     <MESSAGE value="Chain of Responsibility implemented for Doctor, Engineer and Fighter crew." />
     <MESSAGE value="Implemented Mediator for Doctor and Engineer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Mediator for Doctor and Engineer" />
+    <MESSAGE value="Intepreter Integrated with CrewMember" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intepreter Integrated with CrewMember" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

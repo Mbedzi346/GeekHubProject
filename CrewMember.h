@@ -3,6 +3,11 @@
 
 #include "Person.h"
 #include "Mediator.h"
+#include <iostream>
+#include "Critter.h"
+#include "Context.h"
+#include "AbstractExpression.h"
+
 using namespace std;
 class Mediator;
 class CrewMember : public Person {
@@ -22,6 +27,7 @@ public:
     string getReport(){ return report;};
     void acknowledge(string s);
     //void sendNotification(string, int);
+    void encounterCritter(Critter* _critter, Context* _ctx);
 private:
     string announcement;
     CrewMember* captain;

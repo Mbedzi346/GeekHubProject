@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include "Critter.h"
 #include "Context.h"
@@ -14,7 +15,7 @@ int main(){
     _ctx->assign("No", "You're not");
     _ctx->assign("Welcum", "Welcome");
     _ctx->assign("Amica", "Friend");
-    
+
     _interpreter = new VariableExpression(_critter->interact());
     cout<<"Interpreted: "<<_interpreter->evaluate(*_ctx)<<endl;
     _critter->use();
@@ -31,4 +32,4 @@ int main(){
     delete _ctx;
     delete _interpreter;
     return 0;
-}
+}*/
