@@ -6,14 +6,21 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(GeekHubProject
+        AbstractExpression.h
+        AirconditioningDecorator.cpp
+        AirconditioningDecorator.h
         Battleship.cpp
         Battleship.h
         BattleshipsFactory.cpp
         BattleshipsFactory.h
+        Bridge.cpp
+        Bridge.h
         Captain.cpp
         Captain.h
         CaptainFactory.cpp
         CaptainFactory.h
+        Caretaker.cpp
+        Caretaker.h
         ChiefEngineer.h
         ChiefEngineerFactory.cpp
         ChiefEngineerFactory.h
@@ -25,13 +32,32 @@ add_executable(GeekHubProject
         Comms.h
         CommsFactory.cpp
         CommsFactory.h
+        Component.h
+        ConcreteMediator.cpp
+        ConcreteMediator.h
+        ConstantExpression.cpp
+        ConstantExpression.h
+        Context.cpp
+        Context.h
         CrewFactory.cpp
         CrewFactory.h
         CrewMember.cpp
         CrewMember.h
+        Critter.cpp
+        Critter.h
+        Decorator.cpp
+        Decorator.h
+        Doctor.cpp
         Doctor.h
         DoctorFactory.cpp
         DoctorFactory.h
+        DoctorHandler.cpp
+        DoctorHandler.h
+        EmptyFuelState.cpp
+        EmptyFuelState.h
+        EngineerHandler.cpp
+        EngineerHandler.h
+        Engineers.cpp
         Engineers.h
         EngineersFactory.cpp
         EngineersFactory.h
@@ -39,12 +65,18 @@ add_executable(GeekHubProject
         Exploration.h
         ExplorationFactory.cpp
         ExplorationFactory.h
+        Fighter.cpp
         Fighter.h
+        FighterHandler.cpp
+        FighterHandler.h
         FighterTransporter.cpp
         FighterTransporter.h
+        Frigates.cpp
         Frigates.h
         FrigatesFactory.cpp
         FrigatesFactory.h
+        FullFuelState.cpp
+        FullFuelState.h
         InvadeCommand.cpp
         InvadeCommand.h
         Iterator.cpp
@@ -52,6 +84,12 @@ add_executable(GeekHubProject
         LogIterator.cpp
         LogIterator.h
         main.cpp
+        Mediator.cpp
+        Mediator.h
+        Memento.cpp
+        Memento.h
+        MidFuelState.cpp
+        MidFuelState.h
         Navigator.cpp
         Navigator.h
         NavigatorFactory.cpp
@@ -65,6 +103,14 @@ add_executable(GeekHubProject
         PersonFactory.h
         PFighterFactory.cpp
         PFighterFactory.h
+        PremiumSoftwareDecorator.cpp
+        PremiumSoftwareDecorator.h
+        ProblemHandler.cpp
+        ProblemHandler.h
+        SickBay.cpp
+        SickBay.h
+        SleepingQuarters.cpp
+        SleepingQuarters.h
         Spaceship.cpp
         Spaceship.h
         SpaceshipCreator.cpp
@@ -78,4 +124,11 @@ add_executable(GeekHubProject
         SpaceStationFactory.h
         SPFighterFactory.h
         SPTransporterFactory.cpp
-        SPTransporterFactory.h Frigates.cpp Fighter.cpp ProblemHandler.cpp ProblemHandler.h DoctorHandler.cpp DoctorHandler.h Doctor.cpp Engineers.cpp FighterHandler.cpp FighterHandler.h EngineerHandler.cpp EngineerHandler.h Mediator.cpp Mediator.h ConcreteMediator.cpp ConcreteMediator.h State.cpp State.h EmptyFuelState.cpp EmptyFuelState.h FullFuelState.cpp FullFuelState.h MidFuelState.cpp MidFuelState.h Memento.cpp Memento.h Caretaker.cpp Caretaker.h)
+        SPTransporterFactory.h
+        State.cpp
+        State.h
+        testCritters.cpp
+        TVDecorator.cpp
+        TVDecorator.h
+        VariableExpression.cpp
+        VariableExpression.h)

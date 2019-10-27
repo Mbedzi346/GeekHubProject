@@ -11,9 +11,20 @@
 #include "Engineers.h"
 #include "ConcreteMediator.h"
 #include "MidFuelState.h"
+#include "Command.h"
+#include "InvadeCommand.h"
+#include "Commander.h"
+#include "Component.h"
+#include "Bridge.h"
+#include "SickBay.h"
+#include "Decorator.h"
+#include "TVDecorator.h"
+#include "AirconditioningDecorator.h"
+
 using namespace std;
 
 int main(){
+    /*
     //------------------------Creation, Abstract Factory-------------------
     cout<<"\n------------------------Creation, Abstract Factory-------------------\n"<<endl;
    auto* _spaceStationFactory = new SpaceStationFactory();
@@ -85,7 +96,29 @@ int main(){
    cout<<spaceship->getState()->getFuelLevel()<<endl;
    delete _spaceStationFactory;
    delete _spacestation;
+    */
 
+    // Commander design pattern testing
+
+    Spaceship* frigates = new Frigates();  // Receiver
+    Command* invadePlanetCommand = new InvadeCommand(frigates);  // Command
+    Commander* commanderOrder = new Commander(invadePlanetCommand);  // Invoker
+    commanderOrder->proceedWithInvasion();
+
+
+    // Decorator design pattern testing
+
+    Component* sickbay = new SickBay();
+    Component* bridge = new Bridge();
+
+    cout << sickbay->description() << endl;
+    cout << bridge->description() << endl;
+
+    Decorator* tv = new TVDecorator(sickbay);
+    Decorator* airCon = new AirconditioningDecorator(bridge);
+
+    cout << tv->description() << endl;
+    cout << airCon->description() << endl;
 
    return 0;
 }

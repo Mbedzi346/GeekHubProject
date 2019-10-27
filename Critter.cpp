@@ -21,8 +21,8 @@ Critter::Critter(){
 }
 
 /**
-* @brief critters respond to interaction attemps, and return a responce
-* @return returns a string that Crew members then interprete
+* @brief critters respond to interaction attempts, and return a response
+* @return returns a string that Crew members then interpreter
 */
 AbstractExpression* Critter::interact(){
 	if(tolerance <= 3)

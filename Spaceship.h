@@ -7,6 +7,7 @@
 #include "State.h"
 #include "Memento.h"
 class State;
+class Memento;
 using namespace std;
 
 class Spaceship{
@@ -47,6 +48,7 @@ public:
     bool isEmpty();
     Memento* createMemento();
     void setMemento(Memento*);
+    void executeInvasion();
     virtual ~Spaceship() {};
 };
 #endif

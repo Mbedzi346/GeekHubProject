@@ -8,6 +8,8 @@
 
 #include "State.h"
 
+class State;
+
 class Memento {
 private:
     State* state;

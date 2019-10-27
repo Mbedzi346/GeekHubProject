@@ -10,5 +10,5 @@ void Commander::proceedWithInvasion() {
 }
 
 void Commander::setCommand(Command *_command) {
-    invadeCommand = _command;
+    this->invadeCommand = _command;
 }

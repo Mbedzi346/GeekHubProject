@@ -9,5 +9,5 @@ InvadeCommand::InvadeCommand(Spaceship* s)
 }
 
 void InvadeCommand::invade(){
-     //spaceship->executeInvasion()
+     spaceship->executeInvasion();
 }
