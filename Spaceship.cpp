@@ -61,3 +61,21 @@ bool Spaceship::isEmpty(){
 vector<string> Spaceship::getLogs() {
     return logs;
 }
+
+void Spaceship::handleFuel() {
+    state->handle();
+}
+
+void Spaceship::setState(State *s) {
+    state = s;
+}
+
+Memento *Spaceship::createMemento() {
+    Memento* memento = new Memento();
+    memento->setState(state);
+    return memento;
+}
+
+void Spaceship::setMemento(Memento *m) {
+    state = m->getState();
+}

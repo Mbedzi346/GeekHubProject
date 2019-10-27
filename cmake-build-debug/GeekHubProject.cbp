@@ -106,6 +106,12 @@
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/CaptainFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Caretaker.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Caretaker.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/ChiefEngineer.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
@@ -175,6 +181,12 @@
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/DoctorHandler.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/EmptyFuelState.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/EmptyFuelState.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/EngineerHandler.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
@@ -235,6 +247,12 @@
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/FrigatesFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/FullFuelState.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/FullFuelState.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/InvadeCommand.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
@@ -257,6 +275,18 @@
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Mediator.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Memento.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Memento.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/MidFuelState.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/MidFuelState.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Navigator.cpp">
@@ -344,6 +374,12 @@
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/SpaceshipTransporter.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/State.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/State.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/main.cpp">

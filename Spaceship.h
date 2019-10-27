@@ -4,7 +4,9 @@
 #include <vector>
 #include <string>
 #include "Iterator.h"
-
+#include "State.h"
+#include "Memento.h"
+class State;
 using namespace std;
 
 class Spaceship{
@@ -17,9 +19,9 @@ private:
     double stallSpeed;
     int crew;
     int passengers;
-    int fuel = 100;
     Iterator* iterator;
     vector<string> logs;
+    State* state;
 public:
     double getDisplacement();
     void setDisplacement(double);
@@ -38,8 +40,13 @@ public:
     virtual Iterator* createIterator() = 0;
     void addLogEntry(string log);
     void removeLogEntry(string log);
+    void setState(State*);
+    State* getState() {return state;};
+    void handleFuel();
     vector<string> getLogs();
     bool isEmpty();
+    Memento* createMemento();
+    void setMemento(Memento*);
     virtual ~Spaceship() {};
 };
 #endif

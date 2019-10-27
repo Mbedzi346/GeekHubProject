@@ -41,6 +41,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o"
   "CMakeFiles/GeekHubProject.dir/Mediator.cpp.o"
   "CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/State.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/EmptyFuelState.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/FullFuelState.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/MidFuelState.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/Memento.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/Caretaker.cpp.o"
   "GeekHubProject.pdb"
   "GeekHubProject"
 )

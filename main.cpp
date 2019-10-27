@@ -10,6 +10,7 @@
 #include "DoctorHandler.h"
 #include "Engineers.h"
 #include "ConcreteMediator.h"
+#include "MidFuelState.h"
 using namespace std;
 
 int main(){
@@ -75,6 +76,13 @@ int main(){
    mediator->addColleague(crew3);
    crew1->setMediator(mediator);
    crew1->sendReport("Had a weird AF patient last night...");
+   //--------------- Sets fuel levels, State -------------------------
+   cout<<"\n--------------- Sets fuel levels, State ------------------------\n"<<endl;
+   auto state = new MidFuelState(spaceship);
+   spaceship->setState(state);
+   cout<<spaceship->getState()->getFuelLevel()<<endl;
+   spaceship->handleFuel();
+   cout<<spaceship->getState()->getFuelLevel()<<endl;
    delete _spaceStationFactory;
    delete _spacestation;
 

@@ -231,6 +231,33 @@ CaptainFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/CaptainFactory.cpp.s
 .PHONY : CaptainFactory.cpp.s
 
+Caretaker.o: Caretaker.cpp.o
+
+.PHONY : Caretaker.o
+
+# target to build an object file
+Caretaker.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Caretaker.cpp.o
+.PHONY : Caretaker.cpp.o
+
+Caretaker.i: Caretaker.cpp.i
+
+.PHONY : Caretaker.i
+
+# target to preprocess a source file
+Caretaker.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Caretaker.cpp.i
+.PHONY : Caretaker.cpp.i
+
+Caretaker.s: Caretaker.cpp.s
+
+.PHONY : Caretaker.s
+
+# target to generate assembly for a file
+Caretaker.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Caretaker.cpp.s
+.PHONY : Caretaker.cpp.s
+
 ChiefEngineerFactory.o: ChiefEngineerFactory.cpp.o
 
 .PHONY : ChiefEngineerFactory.o
@@ -500,6 +527,33 @@ DoctorHandler.s: DoctorHandler.cpp.s
 DoctorHandler.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/DoctorHandler.cpp.s
 .PHONY : DoctorHandler.cpp.s
+
+EmptyFuelState.o: EmptyFuelState.cpp.o
+
+.PHONY : EmptyFuelState.o
+
+# target to build an object file
+EmptyFuelState.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/EmptyFuelState.cpp.o
+.PHONY : EmptyFuelState.cpp.o
+
+EmptyFuelState.i: EmptyFuelState.cpp.i
+
+.PHONY : EmptyFuelState.i
+
+# target to preprocess a source file
+EmptyFuelState.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/EmptyFuelState.cpp.i
+.PHONY : EmptyFuelState.cpp.i
+
+EmptyFuelState.s: EmptyFuelState.cpp.s
+
+.PHONY : EmptyFuelState.s
+
+# target to generate assembly for a file
+EmptyFuelState.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/EmptyFuelState.cpp.s
+.PHONY : EmptyFuelState.cpp.s
 
 EngineerHandler.o: EngineerHandler.cpp.o
 
@@ -771,6 +825,33 @@ FrigatesFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/FrigatesFactory.cpp.s
 .PHONY : FrigatesFactory.cpp.s
 
+FullFuelState.o: FullFuelState.cpp.o
+
+.PHONY : FullFuelState.o
+
+# target to build an object file
+FullFuelState.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/FullFuelState.cpp.o
+.PHONY : FullFuelState.cpp.o
+
+FullFuelState.i: FullFuelState.cpp.i
+
+.PHONY : FullFuelState.i
+
+# target to preprocess a source file
+FullFuelState.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/FullFuelState.cpp.i
+.PHONY : FullFuelState.cpp.i
+
+FullFuelState.s: FullFuelState.cpp.s
+
+.PHONY : FullFuelState.s
+
+# target to generate assembly for a file
+FullFuelState.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/FullFuelState.cpp.s
+.PHONY : FullFuelState.cpp.s
+
 InvadeCommand.o: InvadeCommand.cpp.o
 
 .PHONY : InvadeCommand.o
@@ -878,6 +959,60 @@ Mediator.s: Mediator.cpp.s
 Mediator.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Mediator.cpp.s
 .PHONY : Mediator.cpp.s
+
+Memento.o: Memento.cpp.o
+
+.PHONY : Memento.o
+
+# target to build an object file
+Memento.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Memento.cpp.o
+.PHONY : Memento.cpp.o
+
+Memento.i: Memento.cpp.i
+
+.PHONY : Memento.i
+
+# target to preprocess a source file
+Memento.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Memento.cpp.i
+.PHONY : Memento.cpp.i
+
+Memento.s: Memento.cpp.s
+
+.PHONY : Memento.s
+
+# target to generate assembly for a file
+Memento.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Memento.cpp.s
+.PHONY : Memento.cpp.s
+
+MidFuelState.o: MidFuelState.cpp.o
+
+.PHONY : MidFuelState.o
+
+# target to build an object file
+MidFuelState.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/MidFuelState.cpp.o
+.PHONY : MidFuelState.cpp.o
+
+MidFuelState.i: MidFuelState.cpp.i
+
+.PHONY : MidFuelState.i
+
+# target to preprocess a source file
+MidFuelState.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/MidFuelState.cpp.i
+.PHONY : MidFuelState.cpp.i
+
+MidFuelState.s: MidFuelState.cpp.s
+
+.PHONY : MidFuelState.s
+
+# target to generate assembly for a file
+MidFuelState.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/MidFuelState.cpp.s
+.PHONY : MidFuelState.cpp.s
 
 Navigator.o: Navigator.cpp.o
 
@@ -1230,6 +1365,33 @@ SpaceshipTransporter.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/SpaceshipTransporter.cpp.s
 .PHONY : SpaceshipTransporter.cpp.s
 
+State.o: State.cpp.o
+
+.PHONY : State.o
+
+# target to build an object file
+State.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/State.cpp.o
+.PHONY : State.cpp.o
+
+State.i: State.cpp.i
+
+.PHONY : State.i
+
+# target to preprocess a source file
+State.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/State.cpp.i
+.PHONY : State.cpp.i
+
+State.s: State.cpp.s
+
+.PHONY : State.s
+
+# target to generate assembly for a file
+State.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/State.cpp.s
+.PHONY : State.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -1278,6 +1440,9 @@ help:
 	@echo "... CaptainFactory.o"
 	@echo "... CaptainFactory.i"
 	@echo "... CaptainFactory.s"
+	@echo "... Caretaker.o"
+	@echo "... Caretaker.i"
+	@echo "... Caretaker.s"
 	@echo "... ChiefEngineerFactory.o"
 	@echo "... ChiefEngineerFactory.i"
 	@echo "... ChiefEngineerFactory.s"
@@ -1308,6 +1473,9 @@ help:
 	@echo "... DoctorHandler.o"
 	@echo "... DoctorHandler.i"
 	@echo "... DoctorHandler.s"
+	@echo "... EmptyFuelState.o"
+	@echo "... EmptyFuelState.i"
+	@echo "... EmptyFuelState.s"
 	@echo "... EngineerHandler.o"
 	@echo "... EngineerHandler.i"
 	@echo "... EngineerHandler.s"
@@ -1338,6 +1506,9 @@ help:
 	@echo "... FrigatesFactory.o"
 	@echo "... FrigatesFactory.i"
 	@echo "... FrigatesFactory.s"
+	@echo "... FullFuelState.o"
+	@echo "... FullFuelState.i"
+	@echo "... FullFuelState.s"
 	@echo "... InvadeCommand.o"
 	@echo "... InvadeCommand.i"
 	@echo "... InvadeCommand.s"
@@ -1350,6 +1521,12 @@ help:
 	@echo "... Mediator.o"
 	@echo "... Mediator.i"
 	@echo "... Mediator.s"
+	@echo "... Memento.o"
+	@echo "... Memento.i"
+	@echo "... Memento.s"
+	@echo "... MidFuelState.o"
+	@echo "... MidFuelState.i"
+	@echo "... MidFuelState.s"
 	@echo "... Navigator.o"
 	@echo "... Navigator.i"
 	@echo "... Navigator.s"
@@ -1389,6 +1566,9 @@ help:
 	@echo "... SpaceshipTransporter.o"
 	@echo "... SpaceshipTransporter.i"
 	@echo "... SpaceshipTransporter.s"
+	@echo "... State.o"
+	@echo "... State.i"
+	@echo "... State.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
