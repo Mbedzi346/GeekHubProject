@@ -4,8 +4,11 @@
 #include "CrewMember.h"
 
 class Doctor : public CrewMember {
-    public:
-        Doctor(int r);
+public:
+    Doctor(int r);
+    virtual void sendReport(string) override;
+
+
 };
 
 #endif

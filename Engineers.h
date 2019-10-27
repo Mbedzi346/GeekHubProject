@@ -6,6 +6,8 @@
 class Engineers : public CrewMember {
     public:
         Engineers(int r);
+    virtual void sendReport(string) override;
+
 };
 
 #endif

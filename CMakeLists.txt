@@ -78,4 +78,4 @@ add_executable(GeekHubProject
         SpaceStationFactory.h
         SPFighterFactory.h
         SPTransporterFactory.cpp
-        SPTransporterFactory.h Frigates.cpp Fighter.cpp ProblemHandler.cpp ProblemHandler.h DoctorHandler.cpp DoctorHandler.h Doctor.cpp Engineers.cpp FighterHandler.cpp FighterHandler.h EngineerHandler.cpp EngineerHandler.h)
+        SPTransporterFactory.h Frigates.cpp Fighter.cpp ProblemHandler.cpp ProblemHandler.h DoctorHandler.cpp DoctorHandler.h Doctor.cpp Engineers.cpp FighterHandler.cpp FighterHandler.h EngineerHandler.cpp EngineerHandler.h Mediator.cpp Mediator.h ConcreteMediator.cpp ConcreteMediator.h)

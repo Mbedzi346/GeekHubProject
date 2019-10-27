@@ -9,21 +9,19 @@
 #include "Doctor.h"
 #include "DoctorHandler.h"
 #include "Engineers.h"
+#include "ConcreteMediator.h"
 using namespace std;
 
 int main(){
-  // code goes here, this main is gonna be fat AF
-  /*
-    * LOL, until we have figured out how to do the interpreter thing for the critters,
-    * we might as well just work with this main, I am sure we'll get enough marks without the critters thingy
-    * - Lindo
-    * */
-   // the spacestation
+    //------------------------Creation, Abstract Factory-------------------
+    cout<<"\n------------------------Creation, Abstract Factory-------------------\n"<<endl;
    auto* _spaceStationFactory = new SpaceStationFactory();
    Spaceship*_spacestation = _spaceStationFactory->createSpaceship();
    auto spacestation = _spaceStationFactory->createSpaceship();
-   cout<<"The end. We do not have credits for this story :-("<<endl;
+   cout<<"Well, no proof, but I promise you something was created!"<<endl;
    auto* spaceship = new Frigates();
+   //-----------------------Captain's Log, Iterator-----------------------
+   cout<<"\n-----------------------Captain's Log, Iterator-----------------------\n"<<endl;
    spaceship->addLogEntry("10 Jan 2019 -- Engine failure.");
    spaceship->addLogEntry("13 Feb 2019 -- Fuel Leak.");
    spaceship->addLogEntry("12 Apr 2019 -- Left FMC Failure.");
@@ -32,22 +30,29 @@ int main(){
    auto* iterator = spaceship->createIterator();
    while (iterator->hasNext())
        cout<<iterator->next()<<endl;
-
+    //-------------------------Create Crew Members, Use Factories---------------
+    cout<<"\n-------------------------Create Crew Members, Use Factories---------------\n"<<endl;
    auto* captain = new Captain(10);
    auto* pax1 = new Passenger();
    auto* pax2 = new Passenger();
-    auto* crew1 = new Doctor(0);
-    auto* crew2 = new Doctor(1);
-    auto* crew3 = new Doctor(2);
-    auto* crew4 = new Doctor(3);
-    auto* doctorHandler = new DoctorHandler(crew1);
-    auto* doctorHandler1 = new DoctorHandler(crew2);
-    auto* doctorHandler2 = new DoctorHandler(crew3);
-    auto* doctorHandler3 = new DoctorHandler(crew4);
-    doctorHandler->setNextChain(doctorHandler1);
-    doctorHandler1->setNextChain(doctorHandler2);
-    doctorHandler2->setNextChain(doctorHandler3);
-    doctorHandler->handle(3);
+   auto* crew1 = new Doctor(0);
+   auto* crew2 = new Doctor(1);
+   auto* crew3 = new Doctor(2);
+   auto* crew4 = new Doctor(3);
+   cout<<"Well, no proof, but I promise you something was created!"<<endl;
+
+    //-------------------Simulate handing off problems to higher ranked crew, Chain of Responsibilty ------------
+   cout<<"\n-------------------Simulate handing off problems to higher ranked crew, Chain of Responsibilty ------------\n"<<endl;
+   auto* doctorHandler = new DoctorHandler(crew1);
+   auto* doctorHandler1 = new DoctorHandler(crew2);
+   auto* doctorHandler2 = new DoctorHandler(crew3);
+   auto* doctorHandler3 = new DoctorHandler(crew4);
+   doctorHandler->setNextChain(doctorHandler1);
+   doctorHandler1->setNextChain(doctorHandler2);
+   doctorHandler2->setNextChain(doctorHandler3);
+   doctorHandler->handle(3);
+   //----------------- Captain's Announcement, Observer ---------------------
+   cout<<"\n----------------- Captain's Announcement, Observer ---------------------\n"<<endl;
    captain->attach(pax1);
    captain->attach(pax2);
    captain->attach(crew1);
@@ -62,6 +67,14 @@ int main(){
    captain->notify();
    captain->setGeneralAnnouncement("Brace For Impact! Kidding, should've seen your faces, lol. Hope yall good.");
    captain->notify();
+    //--------------- Intercrew Communications, Send Reports, Mediator -----------------
+    cout<<"\n--------------- Intercrew Communications, Send Reports, Mediator -----------------\n"<<endl;
+   auto* mediator = new ConcreteMediator();
+   mediator->addColleague(crew1);
+   mediator->addColleague(crew2);
+   mediator->addColleague(crew3);
+   crew1->setMediator(mediator);
+   crew1->sendReport("Had a weird AF patient last night...");
    delete _spaceStationFactory;
    delete _spacestation;
 

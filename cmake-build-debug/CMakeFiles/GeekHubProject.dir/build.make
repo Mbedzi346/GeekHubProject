@@ -577,6 +577,32 @@ CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/orifhambedzi/CLionProjects/GeekHubProject/EngineerHandler.cpp -o CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.s
 
+CMakeFiles/GeekHubProject.dir/Mediator.cpp.o: CMakeFiles/GeekHubProject.dir/flags.make
+CMakeFiles/GeekHubProject.dir/Mediator.cpp.o: ../Mediator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/GeekHubProject.dir/Mediator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeekHubProject.dir/Mediator.cpp.o -c /Users/orifhambedzi/CLionProjects/GeekHubProject/Mediator.cpp
+
+CMakeFiles/GeekHubProject.dir/Mediator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeekHubProject.dir/Mediator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/orifhambedzi/CLionProjects/GeekHubProject/Mediator.cpp > CMakeFiles/GeekHubProject.dir/Mediator.cpp.i
+
+CMakeFiles/GeekHubProject.dir/Mediator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeekHubProject.dir/Mediator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/orifhambedzi/CLionProjects/GeekHubProject/Mediator.cpp -o CMakeFiles/GeekHubProject.dir/Mediator.cpp.s
+
+CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.o: CMakeFiles/GeekHubProject.dir/flags.make
+CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.o: ../ConcreteMediator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.o -c /Users/orifhambedzi/CLionProjects/GeekHubProject/ConcreteMediator.cpp
+
+CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/orifhambedzi/CLionProjects/GeekHubProject/ConcreteMediator.cpp > CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.i
+
+CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/orifhambedzi/CLionProjects/GeekHubProject/ConcreteMediator.cpp -o CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.s
+
 # Object files for target GeekHubProject
 GeekHubProject_OBJECTS = \
 "CMakeFiles/GeekHubProject.dir/Battleship.cpp.o" \
@@ -618,7 +644,9 @@ GeekHubProject_OBJECTS = \
 "CMakeFiles/GeekHubProject.dir/Doctor.cpp.o" \
 "CMakeFiles/GeekHubProject.dir/Engineers.cpp.o" \
 "CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.o" \
-"CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o"
+"CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o" \
+"CMakeFiles/GeekHubProject.dir/Mediator.cpp.o" \
+"CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.o"
 
 # External object files for target GeekHubProject
 GeekHubProject_EXTERNAL_OBJECTS =
@@ -663,9 +691,11 @@ GeekHubProject: CMakeFiles/GeekHubProject.dir/Doctor.cpp.o
 GeekHubProject: CMakeFiles/GeekHubProject.dir/Engineers.cpp.o
 GeekHubProject: CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.o
 GeekHubProject: CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o
+GeekHubProject: CMakeFiles/GeekHubProject.dir/Mediator.cpp.o
+GeekHubProject: CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.o
 GeekHubProject: CMakeFiles/GeekHubProject.dir/build.make
 GeekHubProject: CMakeFiles/GeekHubProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable GeekHubProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/orifhambedzi/CLionProjects/GeekHubProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking CXX executable GeekHubProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GeekHubProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

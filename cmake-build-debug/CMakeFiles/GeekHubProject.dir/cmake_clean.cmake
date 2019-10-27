@@ -39,6 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GeekHubProject.dir/Engineers.cpp.o"
   "CMakeFiles/GeekHubProject.dir/FighterHandler.cpp.o"
   "CMakeFiles/GeekHubProject.dir/EngineerHandler.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/Mediator.cpp.o"
+  "CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.o"
   "GeekHubProject.pdb"
   "GeekHubProject"
 )

@@ -139,6 +139,12 @@
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/CommsFactory.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/ConcreteMediator.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/ConcreteMediator.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/CrewFactory.cpp">
 			<Option target="GeekHubProject"/>
 		</Unit>
@@ -245,6 +251,12 @@
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/LogIterator.h">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Mediator.cpp">
+			<Option target="GeekHubProject"/>
+		</Unit>
+		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Mediator.h">
 			<Option target="GeekHubProject"/>
 		</Unit>
 		<Unit filename="/Users/orifhambedzi/CLionProjects/GeekHubProject/Navigator.cpp">

@@ -42,3 +42,23 @@ CrewMember::CrewMember(int r) {
     setType("crew");
     rank = r;
 }
+
+void CrewMember::setMediator(Mediator *mediator1) {
+    mediator = mediator1;
+}
+
+void CrewMember::sendReport(string s) {
+    report = s;
+}
+
+void CrewMember::acknowledge(string s) {
+    cout<<"CrewMember #"<<this<<" has acknowledged report from fellow colleague: "<<s<<endl;
+}
+
+Mediator *CrewMember::getMediator() {
+    return mediator;
+}
+
+void CrewMember::setReport(string s) {
+    report = s;
+}

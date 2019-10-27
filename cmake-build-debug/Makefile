@@ -339,6 +339,33 @@ CommsFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/CommsFactory.cpp.s
 .PHONY : CommsFactory.cpp.s
 
+ConcreteMediator.o: ConcreteMediator.cpp.o
+
+.PHONY : ConcreteMediator.o
+
+# target to build an object file
+ConcreteMediator.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.o
+.PHONY : ConcreteMediator.cpp.o
+
+ConcreteMediator.i: ConcreteMediator.cpp.i
+
+.PHONY : ConcreteMediator.i
+
+# target to preprocess a source file
+ConcreteMediator.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.i
+.PHONY : ConcreteMediator.cpp.i
+
+ConcreteMediator.s: ConcreteMediator.cpp.s
+
+.PHONY : ConcreteMediator.s
+
+# target to generate assembly for a file
+ConcreteMediator.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/ConcreteMediator.cpp.s
+.PHONY : ConcreteMediator.cpp.s
+
 CrewFactory.o: CrewFactory.cpp.o
 
 .PHONY : CrewFactory.o
@@ -825,6 +852,33 @@ LogIterator.cpp.s:
 	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/LogIterator.cpp.s
 .PHONY : LogIterator.cpp.s
 
+Mediator.o: Mediator.cpp.o
+
+.PHONY : Mediator.o
+
+# target to build an object file
+Mediator.cpp.o:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Mediator.cpp.o
+.PHONY : Mediator.cpp.o
+
+Mediator.i: Mediator.cpp.i
+
+.PHONY : Mediator.i
+
+# target to preprocess a source file
+Mediator.cpp.i:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Mediator.cpp.i
+.PHONY : Mediator.cpp.i
+
+Mediator.s: Mediator.cpp.s
+
+.PHONY : Mediator.s
+
+# target to generate assembly for a file
+Mediator.cpp.s:
+	$(MAKE) -f CMakeFiles/GeekHubProject.dir/build.make CMakeFiles/GeekHubProject.dir/Mediator.cpp.s
+.PHONY : Mediator.cpp.s
+
 Navigator.o: Navigator.cpp.o
 
 .PHONY : Navigator.o
@@ -1236,6 +1290,9 @@ help:
 	@echo "... CommsFactory.o"
 	@echo "... CommsFactory.i"
 	@echo "... CommsFactory.s"
+	@echo "... ConcreteMediator.o"
+	@echo "... ConcreteMediator.i"
+	@echo "... ConcreteMediator.s"
 	@echo "... CrewFactory.o"
 	@echo "... CrewFactory.i"
 	@echo "... CrewFactory.s"
@@ -1290,6 +1347,9 @@ help:
 	@echo "... LogIterator.o"
 	@echo "... LogIterator.i"
 	@echo "... LogIterator.s"
+	@echo "... Mediator.o"
+	@echo "... Mediator.i"
+	@echo "... Mediator.s"
 	@echo "... Navigator.o"
 	@echo "... Navigator.i"
 	@echo "... Navigator.s"

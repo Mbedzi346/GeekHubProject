@@ -8,3 +8,9 @@ Doctor::Doctor(int r) : CrewMember(r) {
 
 }
 
+void Doctor::sendReport(string s) {
+    auto mediator = getMediator();
+    this->setReport(s);
+    mediator->notify(this);
+}
+
