@@ -20,7 +20,10 @@
 #include "Decorator.h"
 #include "TVDecorator.h"
 #include "AirconditioningDecorator.h"
-
+#include "ExplorationFactory.h"
+#include "BattleshipsFactory.h"
+#include "FrigatesFactory.h"
+#include "SPTransporterFactory.h"
 using namespace std;
 
 int main(){
@@ -28,12 +31,23 @@ int main(){
     //------------------------Creation, Abstract Factory-------------------
     cout<<"\n------------------------Creation, Abstract Factory-------------------\n"<<endl;
    auto* _spaceStationFactory = new SpaceStationFactory();
-   Spaceship*_spacestation = _spaceStationFactory->createSpaceship();
-   auto spacestation = _spaceStationFactory->createSpaceship();
-   cout<<"Well, no proof, but I promise you something was created!"<<endl;
-   auto* spaceship = new Frigates();
+   Spaceship* spaceStation = _spaceStationFactory->createSpaceship();
+
+   SpaceshipFactory* factory[4];
+   factory[0] = new ExplorationFactory();
+   factory[1] = new BattleshipsFactory();
+   factory[2] = new FrigatesFactory();
+   factory[3] = new SPTransporterFactory();
+
+   Spaceship* fleet[4];
+   for (int j = 0; j < 4; j++)
+       fleet[j] = factory[j]->createSpaceship();
+
+    cout << "Space fleet ready for deployment." << endl;
+
    //-----------------------Captain's Log, Iterator-----------------------
    cout<<"\n-----------------------Captain's Log, Iterator-----------------------\n"<<endl;
+    auto* spaceship = new Frigates();
    spaceship->addLogEntry("10 Jan 2019 -- Engine failure.");
    spaceship->addLogEntry("13 Feb 2019 -- Fuel Leak.");
    spaceship->addLogEntry("12 Apr 2019 -- Left FMC Failure.");
@@ -94,8 +108,8 @@ int main(){
    cout<<spaceship->getState()->getFuelLevel()<<endl;
    spaceship->handleFuel();
    cout<<spaceship->getState()->getFuelLevel()<<endl;
+
    delete _spaceStationFactory;
-   delete _spacestation;
 
 
     // Commander design pattern testing
